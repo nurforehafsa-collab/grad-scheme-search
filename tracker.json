@@ -7,8 +7,8 @@
       "track": "1",
       "status": "not_started",
       "deadline": "2026-11-13",
-      "link": "",
-      "notes": "2027 cohort opens 17 Sept 2026. Includes a building surveying pathway."
+      "link": "https://www.turnerandtownsend.com/join-us/early-careers/uk-graduate-development-programme/",
+      "notes": "2027 cohort opens 17 Sept 2026. Includes a building surveying pathway. Confirmed 2026-08-07: applications open 17 Sept, close 13 Nov 2026; online assessments Sept-Nov; assessment centres Nov 2026-Mar 2027."
     },
     {
       "id": "seed-2",
@@ -17,8 +17,8 @@
       "track": "1",
       "status": "researching",
       "deadline": "",
-      "link": "",
-      "notes": "Rolling recruitment on their Early Careers site, worth checking live status directly."
+      "link": "https://careers.atkinsrealis.com/uk-early-careers",
+      "notes": "Rolling recruitment on their Early Careers site, worth checking live status directly. Confirmed 2026-08-07: graduate schemes/placements/apprenticeships currently closed, reopening Autumn 2026."
     },
     {
       "id": "seed-3",
@@ -27,8 +27,8 @@
       "track": "1",
       "status": "not_started",
       "deadline": "",
-      "link": "",
-      "notes": "Advisory/workplace solutions route, crossover with real estate and heritage assets."
+      "link": "https://www.cbre.co.uk/careers/students-and-graduates/commercial-real-estate-graduate-programs",
+      "notes": "Advisory/workplace solutions route, crossover with real estate and heritage assets. Confirmed 2026-08-07: 2-year Building Surveying pathway within Project Management & Building Consultancy dept, supports RICS APC; requires RICS-accredited degree/masters, 2:1 min. No 2027 deadline published yet, page returned 403 on direct fetch this run - check manually."
     },
     {
       "id": "seed-4",
@@ -37,8 +37,8 @@
       "track": "2",
       "status": "not_started",
       "deadline": "2026-11-05",
-      "link": "",
-      "notes": "Reopens Oct 2026. Heritage-adjacent policy route, e.g. DCMS."
+      "link": "https://www.civil-service-careers.gov.uk/fast-stream",
+      "notes": "Reopens Oct 2026. Heritage-adjacent policy route, e.g. DCMS. Confirmed 2026-08-07: pattern still applications open ~Oct, close ~early Nov, consistent with tracked deadline; official 2027 dates not yet formally published."
     },
     {
       "id": "seed-5",
@@ -47,8 +47,8 @@
       "track": "1",
       "status": "applied",
       "deadline": "",
-      "link": "",
-      "notes": "Condition surveys, measured surveys, party wall and dilapidations. APC support in benefits. Tailored CV and cover letter sent."
+      "link": "https://www.frankham.com/jobs/assistant-building-surveyor/",
+      "notes": "Condition surveys, measured surveys, party wall and dilapidations. APC support in benefits. Tailored CV and cover letter sent. Role still listed live as of 2026-08-07."
     },
     {
       "id": "seed-6",
@@ -79,6 +79,76 @@
       "deadline": "",
       "link": "",
       "notes": "Commercial QS role on public-sector projects. Different RICS pathway to building surveying, no heritage overlap. Hard-excluded: QS-only, no building surveying pathway."
+    },
+    {
+      "id": "e-20260807-01",
+      "name": "Graduate Building Surveyor",
+      "employer": "SRVO",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "2026-08-10",
+      "link": "https://www.ricsrecruit.com/job/253981/graduate-building-surveyor/",
+      "notes": "Found via RICS Recruit. Hybrid London/South. Requires RICS-accredited building surveying degree, APC pathway support, chartership targeted in 12-24 months. Deadline is very close (3 days from find date) - flagging for quick review."
+    },
+    {
+      "id": "e-20260807-02",
+      "name": "Graduate Building Surveyor - Birmingham",
+      "employer": "Turner Property Recruitment",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://www.ricsrecruit.com/job/256398/graduate-building-surveyor-birmingham/",
+      "notes": "Found via RICS Recruit. Birmingham, £34,000. Agency-listed graduate building surveyor role; no deadline shown on listing, check directly."
+    },
+    {
+      "id": "e-20260807-03",
+      "name": "Graduate Building Surveyor - London",
+      "employer": "Turner Property Recruitment",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://www.ricsrecruit.com/job/256392/graduate-building-surveyor-london/",
+      "notes": "Found via RICS Recruit. London, competitive salary. Agency-listed graduate building surveyor role; no deadline shown on listing, check directly."
+    },
+    {
+      "id": "e-20260807-04",
+      "name": "Graduate Building Surveyor",
+      "employer": "HD Surveyors",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://www.ricsrecruit.com/job/256066/graduate-building-surveyor/",
+      "notes": "Found via RICS Recruit. Glasgow, circa £27,000 + bonus + benefits. No deadline shown on listing, check directly."
+    },
+    {
+      "id": "e-20260807-05",
+      "name": "Graduate Building Surveyor - APC Support (Warwickshire)",
+      "employer": "Zodiac Recruitment",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://www.ricsrecruit.com/job/256314/graduate-building-surveyor-apc-support-immediate-summer-start/",
+      "notes": "Found via RICS Recruit. Warwickshire, £25,000-£30,000, immediate summer start, APC support explicit. No deadline shown on listing."
+    },
+    {
+      "id": "e-20260807-06",
+      "name": "Graduate Building Surveyor - APC Support (Dartford)",
+      "employer": "Zodiac Recruitment",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://www.ricsrecruit.com/job/256219/graduate-building-surveyor-apc-support/",
+      "notes": "Found via RICS Recruit. Dartford, Kent, £25,000-£30,000, APC support explicit. No deadline shown on listing."
+    },
+    {
+      "id": "e-20260807-07",
+      "name": "Engagement Officer - Roding Rises",
+      "employer": "Thames21",
+      "track": "2",
+      "status": "not_started",
+      "deadline": "2026-08-07",
+      "link": "https://environmentjob.co.uk/jobs/107892-engagement-officer-roding-rises",
+      "notes": "FLAGGED - UNCERTAIN FIT: community river-engagement role (River Roding restoration), funded by the National Lottery Heritage Fund, but this is environmental/river heritage rather than built-heritage or building surveying. Part-time 0.3 FTE (1.5 days/week), 2.5-year contract to Mar 2029, London (Guildhall-adjacent), £36,353-£38,536 pro rata. Deadline is today (2026-08-07) so likely not actionable this cycle - included per instructions to flag rather than drop, but low priority given timing."
     }
   ]
 }
