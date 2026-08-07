@@ -1,0 +1,84 @@
+{
+  "entries": [
+    {
+      "id": "seed-1",
+      "name": "Graduate Development Programme",
+      "employer": "Turner & Townsend",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "2026-11-13",
+      "link": "",
+      "notes": "2027 cohort opens 17 Sept 2026. Includes a building surveying pathway."
+    },
+    {
+      "id": "seed-2",
+      "name": "Building Surveying Graduate Scheme",
+      "employer": "AtkinsRéalis",
+      "track": "1",
+      "status": "researching",
+      "deadline": "",
+      "link": "",
+      "notes": "Rolling recruitment on their Early Careers site, worth checking live status directly."
+    },
+    {
+      "id": "seed-3",
+      "name": "UK Graduate Programme",
+      "employer": "CBRE",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "",
+      "link": "",
+      "notes": "Advisory/workplace solutions route, crossover with real estate and heritage assets."
+    },
+    {
+      "id": "seed-4",
+      "name": "Fast Stream 2027 Intake",
+      "employer": "Civil Service",
+      "track": "2",
+      "status": "not_started",
+      "deadline": "2026-11-05",
+      "link": "",
+      "notes": "Reopens Oct 2026. Heritage-adjacent policy route, e.g. DCMS."
+    },
+    {
+      "id": "seed-5",
+      "name": "Assistant Building Surveyor",
+      "employer": "Frankham",
+      "track": "1",
+      "status": "applied",
+      "deadline": "",
+      "link": "",
+      "notes": "Condition surveys, measured surveys, party wall and dilapidations. APC support in benefits. Tailored CV and cover letter sent."
+    },
+    {
+      "id": "seed-6",
+      "name": "Assistant Surveyor (QS)",
+      "employer": "Wates",
+      "track": "1",
+      "status": "deprioritised",
+      "deadline": "",
+      "link": "",
+      "notes": "Quantity surveying focus, off the heritage building surveying trajectory. Hard-excluded: QS-only, no building surveying pathway."
+    },
+    {
+      "id": "seed-7",
+      "name": "Graduate Programme (Investment/Development)",
+      "employer": "Watkin Jones",
+      "track": "1",
+      "status": "deprioritised",
+      "deadline": "",
+      "link": "",
+      "notes": "New-build residential investment and development. No heritage angle. Hard-excluded: new-build/investment-only, no heritage or surveying-practice angle."
+    },
+    {
+      "id": "seed-8",
+      "name": "Assistant Surveyor (QS)",
+      "employer": "WPS / Wates",
+      "track": "1",
+      "status": "deprioritised",
+      "deadline": "",
+      "link": "",
+      "notes": "Commercial QS role on public-sector projects. Different RICS pathway to building surveying, no heritage overlap. Hard-excluded: QS-only, no building surveying pathway."
+    }
+  ]
+}
