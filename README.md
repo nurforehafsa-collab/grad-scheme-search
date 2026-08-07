@@ -63,6 +63,9 @@ here too.
 - Commission-only "brand ambassador" / street marketing roles dressed up as coordinator titles
 - Pure QS-focused roles with no building surveying pathway (e.g. Wates, WPS)
 - New-build/investment-only development schemes with no heritage or surveying-practice angle (e.g. Watkin Jones)
+- Requires an already-completed RICS-accredited degree, with no part-qualified/currently-studying route (Hafsa is mid part-time MSc Building Surveying, Kingston University, to Aug 2027 — added 2026-08-07)
+- Immediate full-time start incompatible with an ongoing part-time MSc (added 2026-08-07)
+- Non-London / non-Kingston-University-commutable location for immediate-start Track 1 roles (added 2026-08-07). Exception: 2027-cohort graduate schemes (e.g. Turner & Townsend, Fast Stream) are fine regardless of location detail, since they start after the MSc finishes.
 
 ## Sources checked
 

@@ -38,3 +38,9 @@ Notes/links refreshed on 5 existing entries (Turner & Townsend, AtkinsRéalis, C
 ## Gmail draft
 
 Skipped — the Gmail connector isn't attached in this session (no authenticated Gmail MCP tool available). Once you authorize it via claude.ai connector settings, future runs can draft this summary directly to your inbox.
+
+## Fit rules updated (2026-08-07, post-run)
+
+Added new hard excludes to README.md/run_prompt.txt, since Hafsa is still mid part-time MSc Building Surveying (to Aug 2027): roles requiring an already-completed RICS-accredited degree, immediate full-time starts, and non-London/non-Kingston-commutable locations for immediate-start Track 1 roles (2027-cohort schemes like Turner & Townsend and Fast Stream are exempt, since they start after the MSc finishes).
+
+Deprioritised this run's affected entries against the new rules: SRVO (completed-degree requirement, deadline passed anyway), Turner Property Recruitment - Birmingham (location), HD Surveyors - Glasgow (location), Zodiac - Warwickshire and Zodiac - Dartford (immediate start / degree requirement). Turner Property Recruitment - London kept as "not_started" since location fits — worth a direct enquiry about part-qualified candidates before ruling out.

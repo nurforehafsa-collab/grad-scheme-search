@@ -1,0 +1,27 @@
+Weekly grad scheme / placement search for a part-time MSc Building Surveying student (heritage focus). Repo root has tracker.json, README.md, summary.md — read README.md first for the full fit rules and schema, they're authoritative.
+
+Do, in order:
+
+1. Read tracker.json for current entries.
+
+2. Check these sources (public listing pages only, no login, this is a once-a-week check so stay light — a handful of fetches/searches per source, not exhaustive crawling):
+   Track 1 (building surveying): Turner & Townsend early careers/graduate page, AtkinsRéalis early careers page, CBRE UK graduate programme page, Frankham careers page, RICS Recruit (ricsrecruit.com) filtered to building surveying / graduate/trainee level.
+   Track 2 (heritage & community, London): CharityJob (charityjob.co.uk) searches for heritage coordinator, community engagement coordinator, visitor experience coordinator, events coordinator; CultureJobs / Arts Council-adjacent boards; Civil Service Fast Stream official page (application window/deadline only, not general vacancies).
+
+3. For each posting found, extract role title, employer, deadline, link.
+
+4. Apply the fit rules from README.md before adding anything — Track 1 vs Track 2 criteria, and the hard excludes (5+ years' experience required, animal care, fundraising-heavy, commission-only 'brand ambassador'/street marketing roles dressed up as coordinator titles, pure-QS roles with no building surveying pathway, new-build/investment-only schemes with no heritage angle, requires an already-completed RICS-accredited degree with no part-qualified/currently-studying route, immediate full-time start incompatible with an ongoing part-time MSc, non-London/non-Kingston-commutable location for immediate-start Track 1 roles — except 2027-cohort graduate schemes, which are fine regardless of location detail since they start after the MSc finishes).
+
+5. Dedupe against existing tracker.json entries by employer + name — never create duplicate rows on a re-run. For an existing entry whose deadline changed, update the deadline and add a short note about the change. Never overwrite or revert an entry's status field (e.g. leave 'applied' as 'applied') — only status-untouched fields (deadline, notes, link) should change on existing entries.
+
+6. For genuinely new postings: generate a unique id (e.g. 'e-' + timestamp or similar), set status to 'not_started', and match the schema exactly: id, name, employer, track ('1'|'2'), status, deadline (YYYY-MM-DD or ''), link, notes.
+
+7. Write the updated entries back to tracker.json.
+
+8. Rewrite summary.md with a 'what's new this week' report: new postings found (with a one-line fit reason each), deadline changes on existing entries, anything excluded and why, and any source whose page structure couldn't be parsed this run (note it explicitly rather than failing silently).
+
+9. Commit and push: git add -A && git commit -m "Weekly grad scheme search update" && git push, back to main.
+
+10. Gmail draft: if a Gmail MCP tool (something like create_draft) is available to you in this session, use it to create — not send — a draft addressed to nurforehafsa@gmail.com, subject 'Grad scheme search — week of <today's date>', body = the new summary.md content. If no Gmail tool is available, skip this step and note in summary.md that the Gmail connector isn't attached yet so the draft step was skipped.
+
+Treat this as a shortlist for human review, not an auto-apply pipeline — when in doubt about fit, include the entry but flag the uncertainty in its notes rather than silently dropping it.
