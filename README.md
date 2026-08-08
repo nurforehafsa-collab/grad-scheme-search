@@ -21,8 +21,11 @@ Each run:
    create duplicate rows.
 5. Updates `tracker.json` (new entries default to `status: "not_started"`) and
    rewrites `summary.md` with what changed since the last run.
-6. Creates a **Gmail draft** (not a sent email) addressed to you with the
-   summary, so nothing goes out until you review and hit send yourself.
+6. Publishes a static, read-only **dashboard artifact** (same blueprint/card
+   look as the original board) reflecting the current `tracker.json`, reusing
+   the same URL each week, then sends a **push notification** with a one-line
+   highlight and the link. (Superseded the original Gmail-draft delivery
+   method on 2026-08-08.)
 
 Treat the weekly output as a shortlist to skim, not an auto-apply pipeline —
 see Known limitations below.
@@ -50,11 +53,19 @@ Seeded from the existing `grad_scheme_tracker.html` board on first run.
 surveying schemes, roles offering APC support. Radar employers: Turner &
 Townsend, AtkinsRéalis, CBRE, Frankham.
 
-**Track 2 — Heritage & Community Engagement.** Heritage Coordinator, Visitor
-Experience Coordinator, Community Engagement Coordinator, Events Coordinator,
-Programme Administrator, London, £28k+ FTE (part-time pro-rata flagged, not
-excluded). Civil Service Fast Stream (heritage-adjacent, e.g. DCMS) tracked
-here too.
+**Track 2 — Heritage Building Conservation** (narrowed 2026-08-08). Roles that
+work directly with historic buildings/structures: heritage building surveyor,
+historic building conservation officer/consultant, building conservation
+coordinator, heritage building surveying roles at conservation-focused
+practices. London, £28k+ FTE (part-time pro-rata flagged, not excluded).
+**Not** generic heritage-sector community engagement, visitor experience,
+events coordination, or volunteer/programme administration — those were the
+original Track 2 definition but Hafsa clarified 2026-08-08 that she wants to
+work with historical buildings/structures specifically, not run heritage
+programming. A role only counts for Track 2 if there's a clear hands-on
+historic-building-fabric component (surveying, conservation, condition
+assessment of a listed/historic structure) — community/visitor/events roles
+at a heritage site, even a historic one, don't qualify on their own.
 
 **Hard excludes (both tracks):**
 - Requires 5+ years' experience
@@ -66,6 +77,8 @@ here too.
 - Requires an already-completed RICS-accredited degree, with no part-qualified/currently-studying route (Hafsa is mid part-time MSc Building Surveying, Kingston University, to Aug 2027 — added 2026-08-07)
 - Immediate full-time start incompatible with an ongoing part-time MSc (added 2026-08-07)
 - Non-London / non-Kingston-University-commutable location for immediate-start Track 1 roles (added 2026-08-07). Exception: 2027-cohort graduate schemes (e.g. Turner & Townsend, Fast Stream) are fine regardless of location detail, since they start after the MSc finishes.
+- **Start date must be compatible with an August/September 2027 start** (added 2026-08-08, replaces the looser "immediate start" wording above with an explicit positive target). Hafsa's MSc runs to Aug 2027, so the role's actual start — not just its application/deadline — needs to land around Aug/Sept 2027: 2027-cohort graduate schemes (Autumn 2027 intake), or rolling-recruitment/APC-support roles that don't specify an immediate start and could realistically accommodate an Aug/Sept 2027 joiner. Roles that explicitly require an earlier 2026/early-2027 start are excluded even if otherwise a strong fit — flag rather than silently drop if the start date isn't stated and can't be confirmed.
+- **Track 2 must be building/structure-focused, not generic heritage community engagement** (added 2026-08-08) — see the Track 2 definition above. Community engagement, visitor experience, events, or programme administration roles at a heritage site are excluded unless there's a clear historic-building-fabric component (surveying, conservation, condition work).
 
 ## Sources checked
 
@@ -74,13 +87,22 @@ here too.
 - AtkinsRéalis early careers page
 - CBRE UK graduate programme page
 - Frankham careers page
+- Gradcracker (gradcracker.com) — added 2026-08-08, UK STEM/built-environment graduate jobs board; filter to building surveying / construction / built environment
 - RICS Recruit (ricsrecruit.com) — building surveying, graduate/trainee level
 
-**Track 2**
-- CharityJob (charityjob.co.uk) — heritage coordinator, community engagement
-  coordinator, visitor experience coordinator, events coordinator, London
-- CultureJobs / Arts Council-adjacent boards
-- Civil Service Fast Stream official page — application window/deadline only
+**Track 2** (search terms narrowed 2026-08-08 to match the building-focused
+redefinition above)
+- CharityJob (charityjob.co.uk) — heritage building surveyor, historic
+  building conservation officer/consultant, building conservation
+  coordinator, London
+- RICS Recruit / Gradcracker — also checked for "heritage" or "conservation"
+  building surveying roles alongside the Track 1 search
+- CultureJobs / Arts Council-adjacent boards — heritage building conservation
+  roles only, not general arts/culture/events postings
+- Civil Service Fast Stream official page — application window/deadline only.
+  Kept tracked since it was an original named target, but flagged as tension
+  against the 2026-08-08 building-focus narrowing: Fast Stream is a policy
+  route (e.g. DCMS), not hands-on historic-building work.
 
 ## Known limitations
 

@@ -36,10 +36,10 @@
       "name": "Fast Stream 2027 Intake",
       "employer": "Civil Service",
       "track": "2",
-      "status": "not_started",
+      "status": "deprioritised",
       "deadline": "2026-11-05",
       "link": "https://www.civil-service-careers.gov.uk/fast-stream",
-      "notes": "Reopens Oct 2026. Heritage-adjacent policy route, e.g. DCMS. Confirmed 2026-08-07: pattern still applications open ~Oct, close ~early Nov, consistent with tracked deadline; official 2027 dates not yet formally published. Reconfirmed 2026-08-08: still no formal 2027 dates; official page fetch blocked by network egress policy this run, estimate unchanged."
+      "notes": "Reopens Oct 2026. Heritage-adjacent policy route, e.g. DCMS. Confirmed 2026-08-07: pattern still applications open ~Oct, close ~early Nov, consistent with tracked deadline; official 2027 dates not yet formally published. Reconfirmed 2026-08-08: still no formal 2027 dates; official page fetch blocked by network egress policy this run, estimate unchanged. Deprioritised 2026-08-08: Hafsa clarified she wants hands-on work with historical buildings/structures — Fast Stream is a policy route, not building-focused, so it no longer fits the narrowed Track 2 definition. Left in the tracker rather than deleted since it was an originally named target; re-promote if priorities shift back."
     },
     {
       "id": "seed-5",
@@ -146,10 +146,10 @@
       "name": "Engagement Officer - Roding Rises",
       "employer": "Thames21",
       "track": "2",
-      "status": "not_started",
+      "status": "deprioritised",
       "deadline": "2026-08-07",
       "link": "https://environmentjob.co.uk/jobs/107892-engagement-officer-roding-rises",
-      "notes": "FLAGGED - UNCERTAIN FIT: community river-engagement role (River Roding restoration), funded by the National Lottery Heritage Fund, but this is environmental/river heritage rather than built-heritage or building surveying. Part-time 0.3 FTE (1.5 days/week), 2.5-year contract to Mar 2029, London (Guildhall-adjacent), £36,353-£38,536 pro rata. Deadline was 2026-08-07, now passed - no longer actionable. Kept per instructions to never revert/drop an existing entry rather than delete."
+      "notes": "FLAGGED - UNCERTAIN FIT: community river-engagement role (River Roding restoration), funded by the National Lottery Heritage Fund, but this is environmental/river heritage rather than built-heritage or building surveying. Part-time 0.3 FTE (1.5 days/week), 2.5-year contract to Mar 2029, London (Guildhall-adjacent), £36,353-£38,536 pro rata. Deadline was 2026-08-07, now passed - no longer actionable. Deprioritised 2026-08-08: also fails the new building/structure-focused Track 2 rule (river/environmental engagement, no historic-building-fabric work)."
     },
     {
       "id": "e-20260808-01",
@@ -216,10 +216,10 @@
       "name": "Community Engagement and Volunteer Coordinator",
       "employer": "Bevis Marks Synagogue Heritage Foundation",
       "track": "2",
-      "status": "not_started",
+      "status": "deprioritised",
       "deadline": "",
       "link": "https://www.charityjob.co.uk/jobs/bevis-marks-synagogue-heritage-foundation/community-engagement-and-volunteer-co-ordinator/1022646",
-      "notes": "Found via CharityJob search 2026-08-08. Historic Bevis Marks Synagogue (built 1701, oldest in the UK), City of London - strong built-heritage/community-engagement fit for Track 2, establishing a community engagement and volunteer programme at the visitor attraction. FLAGGED - UNCERTAIN CURRENCY: search results mixed what looks like a 2024 posting (deadline 8 Jul, salary quoted £27k-£33k) with a possible re-listing (salary quoted £35k-£38k); could not confirm whether this specific CharityJob listing is currently live or a stale/cached duplicate - charityjob.co.uk direct fetch blocked by network egress policy this run. Check charityjob.co.uk directly before applying."
+      "notes": "Found via CharityJob search 2026-08-08. Historic Bevis Marks Synagogue (built 1701, oldest in the UK), City of London. FLAGGED - UNCERTAIN CURRENCY: search results mixed what looks like a 2024 posting (deadline 8 Jul, salary quoted £27k-£33k) with a possible re-listing (salary quoted £35k-£38k); could not confirm whether this specific CharityJob listing is currently live or a stale/cached duplicate - charityjob.co.uk direct fetch blocked by network egress policy this run. Deprioritised 2026-08-08: this is community/volunteer programme coordination at a historic site, not hands-on work with the building/structure itself, so it fails the narrowed Track 2 rule despite the strong heritage setting."
     }
   ]
 }
