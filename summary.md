@@ -1,49 +1,85 @@
 # Weekly summary — week of 2026-08-08
 
-## New postings found (7)
+**Note on cadence:** this run fired at 11:21 UTC, 2026-08-08 — the same day as the
+previous run (01:57 UTC, 2026-08-08). Two runs landed on the same calendar day
+because of how the schedule fired this week, not because anything requested it.
+Sources were re-checked lightly rather than re-crawled in depth, since almost
+nothing changes source-side in a ~9.5 hour window. One genuinely new lead
+surfaced (SPAB, below); everything else tracked from the morning run held
+steady.
 
-**Track 1 — Building Surveying** (all via RICS Recruit)
-
-- **Graduate Building Surveyor — Central London — Brandon James**. Projects span commercial/residential/retail/heritage/public sectors, full APC support.
-- **Graduate Building Surveyor — City of London — Brandon James**. £28,000-£35,000, 28 days annual leave + bank holidays, structured APC support and mentorship. Framed as "on the APC pathway or intending to work towards chartership" — slightly more open language than most of this batch.
-- **Graduate Building Surveyor — London — EC Property Recruitment**. £27,000-£30,000, Private Healthcare, Professional Membership Support, APC Support, Hybrid Working.
-- **Graduate Building Surveyor — Central London — Carriera Recruitment**. x2 openings, commercial projects, TDD & dilapidations focus, strong APC support quoted.
-- **Graduate Building Surveyor — Tower Bridge — Carriera Recruitment**. x2 openings, boutique consultancy, 100% APC pass rate quoted.
-- **Graduate Building Surveyor — London — HD Surveyors**. Distinct posting from the existing deprioritised HD Surveyors – Glasgow entry — this one is London-based, so the non-commutable-location exclude doesn't apply. Permanent, hybrid, structured APC progression.
-
-All six are standard graduate-agency listings and **FLAGGED — uncertain fit**: the ad copy doesn't say outright whether a part-qualified/currently-studying candidate is acceptable (same open question as last week's Turner Property Recruitment — London entry). Kept per instructions to include-and-flag rather than drop. Worth a direct enquiry to each agency about compatibility with an ongoing part-time MSc before applying.
+## New postings found (1)
 
 **Track 2 — Heritage & Community**
 
-- **Community Engagement and Volunteer Coordinator — Bevis Marks Synagogue Heritage Foundation**. Historic Bevis Marks Synagogue (built 1701, oldest in the UK), City of London — strong built-heritage/community-engagement fit for Track 2, establishing a community engagement and volunteer programme at the visitor attraction. **FLAGGED — uncertain currency**: search results mixed what looks like a 2024 posting (deadline 8 Jul, salary £27k-£33k) with a possible re-listing (salary £35k-£38k) — couldn't confirm via direct fetch whether the specific CharityJob listing found is currently live or a stale/cached duplicate (charityjob.co.uk fetch was blocked this run, see Source notes below). Check charityjob.co.uk directly before applying.
+- **Learning Programmes Manager — SPAB (Society for the Protection of Ancient
+  Buildings)**. SPAB is the leading UK building conservation charity (founded
+  by William Morris, 1877) — strong built-heritage fit. Coordinates and
+  delivers SPAB's annual Scholarship and Fellowship learning programmes.
+  £36,000–£40,000, location flexible. **Deadline 19 Aug 2026 — only 11 days
+  out, the most urgent item in the tracker right now.** FLAGGED — uncertain
+  fit on two counts: titled "Manager" not "Coordinator" (included anyway —
+  substance is programme coordination, close enough to the Track 2
+  coordinator/programme-administrator criteria); and full-time status /
+  start-date flexibility isn't confirmed, so compatibility with an ongoing
+  part-time MSc needs a direct check before applying. The link saved is a
+  Heritage Alliance write-up with an "apply here" pointer, not confirmed to
+  be SPAB's own posting URL — verify on spab.org.uk or charityjob.co.uk given
+  the tight deadline.
+
+No new Track 1 leads: the RICS Recruit search returned the same eight
+postings already in the tracker (Brandon James ×2, EC Property Recruitment,
+Carriera Recruitment ×2, HD Surveyors, Turner Property Recruitment ×2) —
+nothing new since this morning.
 
 ## Deadline changes on existing entries
 
-None of the tracked deadlines changed. Reconfirmed as still accurate:
-- Turner & Townsend Graduate Development Programme: still 2026-11-13 (2027 cohort opens 17 Sept 2026) — dates unchanged from last week.
-- Civil Service Fast Stream: still 2026-11-05 estimate — official 2027 dates still not formally published; direct page fetch blocked this run (see below), no change to the tracked estimate.
-
-Light "reconfirmed" notes added to 6 existing entries (Turner & Townsend, AtkinsRéalis, CBRE, Fast Stream, Frankham, Turner Property Recruitment — London) — no statuses changed. Frankham stays "applied", AtkinsRéalis stays "researching".
+None. Turner & Townsend (2026-11-13), Fast Stream (2026-11-05 estimate), and
+all other tracked deadlines are unchanged from this morning's run.
 
 ## Excluded this run
 
-- **British Museum — Events Coordinator (CharityJob)**. Same listing flagged as stale/mis-indexed last week — now confirmed: its deadline was 12pm, 15 May 2026, already three months past. Not added.
-- **Royal Albert Hall role (via CultureJobs/search)**. Deadline 20 Jul 2026, already passed. Stale/closed, not added.
-- A handful of other Track 2 leads surfaced only as vague search snippets this run (a generic recruiter "Events Coordinator" listing, an unnamed "400-acre estate" events role, an international heritage-crafts charity events role) — none had enough confirmed detail (employer name, direct link, or deadline) to evaluate against the fit rules, and direct verification fetches were blocked (see Source notes). Not added; worth re-checking next run once fetch access is restored.
+- **Southwark Cathedral — "Engagment Co-ordinator"** (CharityJob 1063784).
+  Otherwise a plausible Track 2 fit, but the listing is confirmed closed —
+  not added.
+- A handful of other Track 2 search hits (Southwark Cathedral Audience
+  Development Coordinator via Arts Jobs, various council culture/heritage
+  manager posts at Hackney and City of London, a Public Experience Producer
+  role at SS Great Britain) surfaced only as generic search snippets without
+  a confirmed direct listing, deadline, or enough detail to evaluate against
+  the fit rules this run. Not added; worth a closer look on a future run if
+  they resurface with more detail.
 
 ## Source notes / parsing issues
 
-- **Network egress policy change this run**: direct `WebFetch` calls to `ricsrecruit.com`, `charityjob.co.uk`, and `civil-service-careers.gov.uk` were all blocked ("EGRESS_BLOCKED") by the network proxy. This is new — those same domains were fetchable in prior runs. Everything sourced from these three sites this week is based on `WebSearch` result summaries only, not verified full-page fetches. That's a real fidelity downgrade: exact closing dates and precise degree-requirement wording on the six new RICS Recruit listings and the Bevis Marks CharityJob listing could not be independently double-checked. Flagging so a human can spot-check the live pages directly, and so future runs know to watch whether this is a persistent policy change or a one-off blip.
-- **CBRE UK careers page**: still no 2027 deadline confirmed via search; direct fetch blocked this run same as above (last run it was a 403, this run a proxy block — page itself remains unverified two runs running).
-- **CultureJobs / Arts Council-adjacent boards**: continues to mostly resolve back into CharityJob's arts/culture/heritage filter rather than a distinct indexable board, consistent with last week's note.
-- **Bevis Marks Synagogue Heritage Foundation** listing: see uncertain-currency flag above — recommend manual confirmation.
+- **Network egress policy**: `WebFetch` to `ricsrecruit.com`,
+  `charityjob.co.uk`, `civil-service-careers.gov.uk`, and this run also
+  `frankham.com` all returned `EGRESS_BLOCKED`. Same restriction as this
+  morning's run, now confirmed persistent rather than a one-off blip.
+  Everything sourced from these domains this run is from `WebSearch` result
+  summaries only, not verified full-page fetches.
+- **CBRE UK careers page**: still no 2027 deadline confirmed; page itself
+  remains unverified via direct fetch (blocked, same as prior two runs).
+- **Civil Service Fast Stream**: one search hit referenced a Fast Stream
+  cohort opening 9 October — consistent with the currently tracked ~Oct
+  open / 5 Nov 2026 close estimate, but not an official 2027-cohort
+  confirmation. No change made.
+- **CultureJobs / Arts Council-adjacent boards**: as in prior runs, this
+  continues to resolve mostly back into CharityJob's arts/culture/heritage
+  filter rather than a distinct indexable board.
+- **Bevis Marks Synagogue Heritage Foundation** listing (from this morning's
+  run): currency still unconfirmed — direct fetch still blocked. Flag
+  carried over unchanged.
 
 ## Dashboard
 
-Published a static, read-only dashboard snapshot (reusing the original tracker board's blueprint/brass card design) at the URL below, generated directly from this run's `tracker.json`. This is the first run publishing via the Artifact tool — the URL has been saved to `tracker.json`'s top-level `dashboard_url` field so future runs update the same page instead of minting a new one.
+Updated the same static, read-only dashboard snapshot published this
+morning (Artifact tool, same URL — reused via `tracker.json`'s
+`dashboard_url` field), regenerated from this run's `tracker.json` to
+include the new SPAB entry.
 
 **Dashboard:** https://claude.ai/code/artifact/fad5e6b1-cff1-4497-a113-7ea44d030f9a
 
 ## Fit rules
 
-No changes to fit rules this run (last updated 2026-08-07, see README.md). All new entries evaluated against the existing hard excludes, including the completed-degree/immediate-start/non-commutable-location rules, with the 2027-cohort location exemption applied where relevant.
+No changes to fit rules this run (last updated 2026-08-07, see README.md).
