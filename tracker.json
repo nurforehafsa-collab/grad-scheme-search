@@ -220,6 +220,16 @@
       "deadline": "",
       "link": "https://www.charityjob.co.uk/jobs/bevis-marks-synagogue-heritage-foundation/community-engagement-and-volunteer-co-ordinator/1022646",
       "notes": "Found via CharityJob search 2026-08-08. Historic Bevis Marks Synagogue (built 1701, oldest in the UK), City of London. FLAGGED - UNCERTAIN CURRENCY: search results mixed what looks like a 2024 posting (deadline 8 Jul, salary quoted £27k-£33k) with a possible re-listing (salary quoted £35k-£38k); could not confirm whether this specific CharityJob listing is currently live or a stale/cached duplicate - charityjob.co.uk direct fetch blocked by network egress policy this run. Deprioritised 2026-08-08: this is community/volunteer programme coordination at a historic site, not hands-on work with the building/structure itself, so it fails the narrowed Track 2 rule despite the strong heritage setting."
+    },
+    {
+      "id": "e-20260808-08",
+      "name": "Learning Programmes Manager",
+      "employer": "SPAB (Society for the Protection of Ancient Buildings)",
+      "track": "2",
+      "status": "not_started",
+      "deadline": "2026-08-19",
+      "link": "https://www.theheritagealliance.org.uk/blog/the-society-for-the-protection-of-ancient-buildings-learning-programmes-manager",
+      "notes": "Found via search 2026-08-08 (same-day re-check run, ~9.5h after the last one). SPAB is the leading UK building conservation charity (founded by William Morris, 1877) - strong built-heritage fit. Role coordinates and delivers SPAB's annual Scholarship and Fellowship learning programmes, which train people in traditional building conservation craft skills. Salary £36,000-£40,000, location flexible. Deadline very soon: 19 Aug 2026 (11 days out). FLAGGED - UNCERTAIN FIT, tension with the 2026-08-08 building-focus narrowing: this is programme coordination/delivery, not hands-on surveying/conservation work itself, so it's borderline against the new Track 2 rule even though SPAB as an organisation is squarely building-conservation-focused (unlike Bevis Marks/Thames21 above). Kept as not_started rather than auto-deprioritised given SPAB's direct relevance - worth a judgment call before applying, especially with an 11-day deadline. Also unconfirmed: full-time status and start-date flexibility (needs to check against the Aug/Sept 2027 start rule), and the exact application link (page above is a Heritage Alliance write-up, not necessarily SPAB's own posting - verify on spab.org.uk or charityjob.co.uk directly). charityjob.co.uk and spab.org.uk direct fetches blocked by network egress policy this run."
     }
   ]
 }
