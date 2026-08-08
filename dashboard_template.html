@@ -1,0 +1,705 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #0F1B26;
+    --blueprint: #16283A;
+    --blueprint-line: #3E5C76;
+    --blueprint-line-soft: #2A4258;
+    --chalk: #EAF0F2;
+    --chalk-dim: #A9BAC6;
+    --brass: #C89A4A;
+    --rust: #B6603F;
+    --moss: #6B8F71;
+    --teal: #4FA3A0;
+    --green: #4C9A4F;
+    --red: #C1483D;
+    --grey: #75808A;
+    --card-paper: #EDE7D8;
+    --card-ink: #1E2A22;
+    --radius: 3px;
+  }
+
+  * { box-sizing: border-box; }
+
+  #gst-root {
+    font-family: 'Archivo', sans-serif;
+    background: var(--ink);
+    background-image:
+      repeating-linear-gradient(0deg, var(--blueprint-line-soft) 0px, transparent 1px, transparent 32px, var(--blueprint-line-soft) 33px),
+      repeating-linear-gradient(90deg, var(--blueprint-line-soft) 0px, transparent 1px, transparent 32px, var(--blueprint-line-soft) 33px);
+    background-size: 33px 33px;
+    color: var(--chalk);
+    padding: 28px 20px 60px;
+    min-height: 100%;
+    border-radius: 8px;
+  }
+
+  .gst-mono { font-family: 'IBM Plex Mono', monospace; }
+
+  /* Header */
+  .gst-header {
+    max-width: 1100px;
+    margin: 0 auto 22px;
+    border: 1px solid var(--blueprint-line);
+    background: rgba(22, 40, 58, 0.6);
+    padding: 20px 24px;
+    position: relative;
+  }
+  .gst-header::before {
+    content: "";
+    position: absolute; top: 8px; left: 8px; right: 8px; bottom: 8px;
+    border: 1px solid var(--blueprint-line-soft);
+    pointer-events: none;
+  }
+  .gst-eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    color: var(--brass);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .gst-title {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    margin: 0 0 4px;
+  }
+  .gst-sub {
+    color: var(--chalk-dim);
+    font-size: 14px;
+    max-width: 640px;
+    line-height: 1.5;
+  }
+
+  /* Tabs */
+  .gst-tabs {
+    max-width: 1100px;
+    margin: 0 auto 18px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .gst-tab {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    background: transparent;
+    border: 1px solid var(--blueprint-line);
+    color: var(--chalk-dim);
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: var(--radius);
+    transition: all 0.15s ease;
+  }
+  .gst-tab:hover { border-color: var(--brass); color: var(--chalk); }
+  .gst-tab.active { background: var(--brass); border-color: var(--brass); color: var(--ink); font-weight: 600; }
+
+  .gst-spacer { flex: 1; }
+
+  .gst-add-btn {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    background: var(--moss);
+    color: var(--ink);
+    border: none;
+    padding: 9px 16px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .gst-add-btn:hover { filter: brightness(1.1); }
+
+  /* Board */
+  .gst-board {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 18px;
+  }
+
+  .gst-empty {
+    max-width: 1100px;
+    margin: 40px auto;
+    text-align: center;
+    color: var(--chalk-dim);
+    font-size: 14px;
+  }
+
+  /* Record card */
+  .gst-card {
+    background: var(--card-paper);
+    color: var(--card-ink);
+    border-radius: var(--radius);
+    padding: 16px 16px 14px;
+    position: relative;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+    border-left: 4px solid var(--brass);
+  }
+  .gst-card.track-2 { border-left-color: var(--rust); }
+  .gst-card.deprioritised { opacity: 0.55; }
+
+  .gst-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .gst-ref {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    color: #6B6455;
+    text-transform: uppercase;
+  }
+  .gst-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 2px 0 2px;
+  }
+  .gst-card-employer {
+    font-size: 12.5px;
+    color: #4A4436;
+    font-weight: 600;
+  }
+
+  .gst-stamp {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: rotate(-9deg);
+    flex-shrink: 0;
+    line-height: 1.1;
+    padding: 4px;
+  }
+
+  .gst-meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    margin: 10px 0 4px;
+    border-top: 1px dashed #B8AF98;
+    padding-top: 8px;
+  }
+  .gst-deadline-label { color: #6B6455; }
+  .gst-deadline-value { font-weight: 600; }
+  .gst-deadline-value.urgent { color: var(--red); }
+  .gst-deadline-value.ok { color: #3E6B3F; }
+
+  .gst-notes {
+    font-size: 12.5px;
+    color: #3A3529;
+    line-height: 1.45;
+    margin: 6px 0 10px;
+  }
+
+  .gst-card-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .gst-select {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    background: #fff;
+    border: 1px solid #B8AF98;
+    padding: 5px 6px;
+    border-radius: 3px;
+    color: #1E2A22;
+  }
+
+  .gst-link {
+    font-size: 11.5px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #2A5D8F;
+    text-decoration: underline;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+
+  .gst-icon-btn {
+    background: none;
+    border: none;
+    color: #6B6455;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 3px 6px;
+  }
+  .gst-icon-btn:hover { color: var(--red); }
+
+  /* Modal */
+  .gst-overlay {
+    position: fixed; inset: 0;
+    background: rgba(15, 27, 38, 0.75);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 50;
+    padding: 20px;
+  }
+  .gst-modal {
+    background: var(--card-paper);
+    color: var(--card-ink);
+    width: 100%;
+    max-width: 440px;
+    padding: 22px;
+    border-radius: var(--radius);
+    max-height: 88vh;
+    overflow-y: auto;
+  }
+  .gst-modal h3 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 17px;
+    margin: 0 0 14px;
+  }
+  .gst-field { margin-bottom: 12px; }
+  .gst-field label {
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6B6455;
+    margin-bottom: 4px;
+  }
+  .gst-field input, .gst-field select, .gst-field textarea {
+    width: 100%;
+    font-family: 'Archivo', sans-serif;
+    font-size: 13.5px;
+    padding: 8px 9px;
+    border: 1px solid #B8AF98;
+    border-radius: 3px;
+    background: #fff;
+    color: #1E2A22;
+  }
+  .gst-field textarea { resize: vertical; min-height: 54px; }
+  .gst-modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .gst-btn-secondary {
+    background: transparent;
+    border: 1px solid #B8AF98;
+    color: #3A3529;
+    padding: 8px 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .gst-btn-primary {
+    background: var(--moss);
+    border: none;
+    color: #0F1B26;
+    padding: 8px 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  /* Quick links */
+  .gst-quicklinks {
+    max-width: 1100px;
+    margin: 26px auto 0;
+    border-top: 1px solid var(--blueprint-line);
+    padding-top: 16px;
+  }
+  .gst-quicklinks-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--brass);
+    margin-bottom: 10px;
+  }
+  .gst-ql-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .gst-ql-btn {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    background: rgba(200,154,74,0.1);
+    border: 1px solid var(--blueprint-line);
+    color: var(--chalk);
+    padding: 7px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .gst-ql-btn:hover { border-color: var(--brass); }
+
+  .gst-status-msg {
+    max-width: 1100px;
+    margin: 0 auto 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--chalk-dim);
+    min-height: 14px;
+  }
+
+  @media (max-width: 480px) {
+    .gst-title { font-size: 22px; }
+    .gst-board { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div id="gst-root">
+  <div class="gst-header">
+    <div class="gst-eyebrow">Field Record &middot; Career Survey</div>
+    <div class="gst-title">Graduate Scheme Tracker</div>
+    <div class="gst-sub">Building surveying and heritage engagement opportunities, logged like site records. Filter by track, update status as you go.</div>
+  </div>
+
+  <div class="gst-status-msg" id="gst-status"></div>
+
+  <div class="gst-tabs">
+    <button class="gst-tab active" data-track="all">All entries</button>
+    <button class="gst-tab" data-track="1">Track 1 &middot; Building Surveying</button>
+    <button class="gst-tab" data-track="2">Track 2 &middot; Heritage &amp; Community</button>
+    <div class="gst-spacer"></div>
+    <button class="gst-add-btn" id="gst-add">+ Log new scheme</button>
+  </div>
+
+  <div class="gst-board" id="gst-board"></div>
+  <div class="gst-empty" id="gst-empty" style="display:none;">No entries logged for this track yet.</div>
+
+  <div class="gst-quicklinks">
+    <div class="gst-quicklinks-title">Monday check &middot; ask Claude to refresh</div>
+    <div class="gst-ql-row">
+      <button class="gst-ql-btn" data-q="Search for any new graduate scheme openings or deadline updates at Turner &amp; Townsend, AtkinsR\u00e9alis and CBRE for building surveying">Building surveying schemes</button>
+      <button class="gst-ql-btn" data-q="Search Civil Service Fast Stream for the current application window and deadline">Fast Stream window</button>
+      <button class="gst-ql-btn" data-q="Search CharityJob and Culture Jobs for new heritage coordinator, community engagement coordinator or events coordinator roles in London posted this week">New heritage/community roles</button>
+    </div>
+  </div>
+</div>
+
+<div class="gst-overlay" id="gst-overlay" style="display:none;">
+  <div class="gst-modal">
+    <h3 id="gst-modal-title">Log new scheme</h3>
+    <div class="gst-field">
+      <label>Scheme / role name</label>
+      <input type="text" id="f-name" placeholder="e.g. Graduate Development Programme" />
+    </div>
+    <div class="gst-field">
+      <label>Employer</label>
+      <input type="text" id="f-employer" placeholder="e.g. Turner &amp; Townsend" />
+    </div>
+    <div class="gst-field">
+      <label>Track</label>
+      <select id="f-track">
+        <option value="1">Track 1 &middot; Building Surveying</option>
+        <option value="2">Track 2 &middot; Heritage &amp; Community</option>
+      </select>
+    </div>
+    <div class="gst-field">
+      <label>Status</label>
+      <select id="f-status">
+        <option value="not_started">Not started</option>
+        <option value="researching">Researching</option>
+        <option value="applied">Applied</option>
+        <option value="interview">Interview</option>
+        <option value="offer">Offer</option>
+        <option value="rejected">Rejected</option>
+        <option value="deprioritised">Deprioritised</option>
+      </select>
+    </div>
+    <div class="gst-field">
+      <label>Deadline (leave blank if rolling)</label>
+      <input type="date" id="f-deadline" />
+    </div>
+    <div class="gst-field">
+      <label>Link</label>
+      <input type="text" id="f-link" placeholder="https://" />
+    </div>
+    <div class="gst-field">
+      <label>Notes</label>
+      <textarea id="f-notes" placeholder="Fit notes, contact, next step..."></textarea>
+    </div>
+    <div class="gst-modal-actions">
+      <button class="gst-btn-secondary" id="gst-cancel">Cancel</button>
+      <button class="gst-btn-primary" id="gst-save">Save entry</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const STORAGE_KEY = 'grad-scheme-entries';
+  let entries = [];
+  let activeTrack = 'all';
+  let editingId = null;
+
+  const board = document.getElementById('gst-board');
+  const empty = document.getElementById('gst-empty');
+  const statusMsg = document.getElementById('gst-status');
+  const overlay = document.getElementById('gst-overlay');
+
+  const STATUS_LABELS = {
+    not_started: 'Not started',
+    researching: 'Researching',
+    applied: 'Applied',
+    interview: 'Interview',
+    offer: 'Offer',
+    rejected: 'Rejected',
+    deprioritised: 'Deprioritised'
+  };
+  const STATUS_COLORS = {
+    not_started: '#5C7A94',
+    researching: '#B8863C',
+    applied: '#6B8F71',
+    interview: '#4FA3A0',
+    offer: '#3F9142',
+    rejected: '#C1483D',
+    deprioritised: '#75808A'
+  };
+
+  function seedEntries() {
+    return [
+      {
+        id: 'seed-1', name: 'Graduate Development Programme', employer: 'Turner & Townsend',
+        track: '1', status: 'not_started', deadline: '2026-11-13',
+        link: '', notes: '2027 cohort opens 17 Sept 2026. Includes a building surveying pathway.'
+      },
+      {
+        id: 'seed-2', name: 'Building Surveying Graduate Scheme', employer: 'AtkinsR\u00e9alis',
+        track: '1', status: 'researching', deadline: '',
+        link: '', notes: 'Rolling recruitment on their Early Careers site, worth checking live status directly.'
+      },
+      {
+        id: 'seed-3', name: 'UK Graduate Programme', employer: 'CBRE',
+        track: '1', status: 'not_started', deadline: '',
+        link: '', notes: 'Advisory/workplace solutions route, crossover with real estate and heritage assets.'
+      },
+      {
+        id: 'seed-4', name: 'Fast Stream 2027 Intake', employer: 'Civil Service',
+        track: '2', status: 'not_started', deadline: '2026-11-05',
+        link: '', notes: 'Reopens Oct 2026. Heritage-adjacent policy route, e.g. DCMS.'
+      },
+      {
+        id: 'seed-5', name: 'Assistant Building Surveyor', employer: 'Frankham',
+        track: '1', status: 'applied', deadline: '',
+        link: '', notes: 'Condition surveys, measured surveys, party wall and dilapidations. APC support in benefits. Tailored CV and cover letter sent.'
+      },
+      {
+        id: 'seed-6', name: 'Assistant Surveyor (QS)', employer: 'Wates',
+        track: '1', status: 'deprioritised', deadline: '',
+        link: '', notes: 'Quantity surveying focus, off the heritage building surveying trajectory.'
+      },
+      {
+        id: 'seed-7', name: 'Graduate Programme (Investment/Development)', employer: 'Watkin Jones',
+        track: '1', status: 'deprioritised', deadline: '',
+        link: '', notes: 'New-build residential investment and development. No heritage angle, would need to pivot back afterward.'
+      },
+      {
+        id: 'seed-8', name: 'Assistant Surveyor (QS)', employer: 'WPS / Wates',
+        track: '1', status: 'deprioritised', deadline: '',
+        link: '', notes: 'Commercial QS role on public-sector projects. Different RICS pathway to building surveying, no heritage overlap.'
+      }
+    ];
+  }
+
+  async function load() {
+    try {
+      const res = await window.storage.get(STORAGE_KEY, false);
+      entries = res && res.value ? JSON.parse(res.value) : seedEntries();
+      if (!res || !res.value) await save(true);
+    } catch (e) {
+      entries = seedEntries();
+      await save(true);
+    }
+    render();
+  }
+
+  async function save(quiet) {
+    try {
+      await window.storage.set(STORAGE_KEY, JSON.stringify(entries), false);
+      if (!quiet) flash('Saved.');
+    } catch (e) {
+      flash('Could not save, changes may not persist.');
+    }
+  }
+
+  function flash(msg) {
+    statusMsg.textContent = msg;
+    setTimeout(() => { if (statusMsg.textContent === msg) statusMsg.textContent = ''; }, 2200);
+  }
+
+  function daysUntil(dateStr) {
+    if (!dateStr) return null;
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    const d = new Date(dateStr + 'T00:00:00');
+    return Math.round((d - today) / 86400000);
+  }
+
+  function render() {
+    board.innerHTML = '';
+    const filtered = activeTrack === 'all' ? entries : entries.filter(e => e.track === activeTrack);
+    const sorted = [...filtered].sort((a, b) => {
+      if (!a.deadline && !b.deadline) return 0;
+      if (!a.deadline) return 1;
+      if (!b.deadline) return -1;
+      return new Date(a.deadline) - new Date(b.deadline);
+    });
+
+    empty.style.display = sorted.length === 0 ? 'block' : 'none';
+
+    sorted.forEach(entry => {
+      const card = document.createElement('div');
+      card.className = 'gst-card track-' + entry.track + (entry.status === 'deprioritised' ? ' deprioritised' : '');
+
+      const days = daysUntil(entry.deadline);
+      let deadlineHtml = '<span class="gst-deadline-value ok">Rolling</span>';
+      if (entry.deadline) {
+        const urgent = days !== null && days <= 21 && days >= 0 && !['applied','rejected','offer','deprioritised'].includes(entry.status);
+        const label = days < 0 ? 'Closed' : (days === 0 ? 'Today' : days + ' day' + (days === 1 ? '' : 's'));
+        deadlineHtml = '<span class="gst-deadline-value ' + (urgent ? 'urgent' : 'ok') + '">' + label + '</span>';
+      }
+
+      const refCode = (entry.track === '1' ? 'BS' : 'HC') + '-' + entry.id.slice(-4).toUpperCase();
+      const color = STATUS_COLORS[entry.status];
+
+      card.innerHTML = `
+        <div class="gst-card-top">
+          <div>
+            <div class="gst-ref gst-mono">REF ${refCode}</div>
+            <div class="gst-card-title">${escapeHtml(entry.name)}</div>
+            <div class="gst-card-employer">${escapeHtml(entry.employer)}</div>
+          </div>
+          <div class="gst-stamp" style="color:${color}">${STATUS_LABELS[entry.status]}</div>
+        </div>
+        <div class="gst-meta-row">
+          <span class="gst-deadline-label">Deadline</span>
+          ${deadlineHtml}
+        </div>
+        ${entry.notes ? '<div class="gst-notes">' + escapeHtml(entry.notes) + '</div>' : ''}
+        <div class="gst-card-actions">
+          <select class="gst-select" data-id="${entry.id}" data-action="status">
+            ${Object.keys(STATUS_LABELS).map(s => `<option value="${s}" ${s === entry.status ? 'selected' : ''}>${STATUS_LABELS[s]}</option>`).join('')}
+          </select>
+          ${entry.link ? `<button class="gst-link" data-action="open" data-link="${escapeHtml(entry.link)}">Open link</button>` : ''}
+          <span style="flex:1"></span>
+          <button class="gst-icon-btn" data-action="edit" data-id="${entry.id}" title="Edit">Edit</button>
+          <button class="gst-icon-btn" data-action="delete" data-id="${entry.id}" title="Delete">Remove</button>
+        </div>
+      `;
+      board.appendChild(card);
+    });
+  }
+
+  function escapeHtml(str) {
+    const d = document.createElement('div');
+    d.textContent = str || '';
+    return d.innerHTML;
+  }
+
+  board.addEventListener('click', async (e) => {
+    const btn = e.target.closest('[data-action]');
+    if (!btn) return;
+    const action = btn.getAttribute('data-action');
+    const id = btn.getAttribute('data-id');
+
+    if (action === 'edit') openModal(entries.find(en => en.id === id));
+    if (action === 'delete') {
+      entries = entries.filter(en => en.id !== id);
+      await save();
+      render();
+    }
+    if (action === 'open') {
+      const link = btn.getAttribute('data-link');
+      window.open(link.startsWith('http') ? link : 'https://' + link, '_blank');
+    }
+  });
+
+  board.addEventListener('change', async (e) => {
+    if (e.target.getAttribute('data-action') === 'status') {
+      const id = e.target.getAttribute('data-id');
+      const entry = entries.find(en => en.id === id);
+      if (entry) {
+        entry.status = e.target.value;
+        await save();
+        render();
+      }
+    }
+  });
+
+  document.querySelectorAll('.gst-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.gst-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      activeTrack = tab.getAttribute('data-track');
+      render();
+    });
+  });
+
+  document.querySelectorAll('.gst-ql-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const q = btn.getAttribute('data-q');
+      if (typeof sendPrompt === 'function') sendPrompt(q);
+    });
+  });
+
+  function openModal(entry) {
+    editingId = entry ? entry.id : null;
+    document.getElementById('gst-modal-title').textContent = entry ? 'Edit entry' : 'Log new scheme';
+    document.getElementById('f-name').value = entry ? entry.name : '';
+    document.getElementById('f-employer').value = entry ? entry.employer : '';
+    document.getElementById('f-track').value = entry ? entry.track : '1';
+    document.getElementById('f-status').value = entry ? entry.status : 'not_started';
+    document.getElementById('f-deadline').value = entry ? entry.deadline : '';
+    document.getElementById('f-link').value = entry ? entry.link : '';
+    document.getElementById('f-notes').value = entry ? entry.notes : '';
+    overlay.style.display = 'flex';
+  }
+
+  document.getElementById('gst-add').addEventListener('click', () => openModal(null));
+  document.getElementById('gst-cancel').addEventListener('click', () => { overlay.style.display = 'none'; });
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.style.display = 'none'; });
+
+  document.getElementById('gst-save').addEventListener('click', async () => {
+    const name = document.getElementById('f-name').value.trim();
+    if (!name) { flash('Give it a name first.'); return; }
+    const data = {
+      name,
+      employer: document.getElementById('f-employer').value.trim(),
+      track: document.getElementById('f-track').value,
+      status: document.getElementById('f-status').value,
+      deadline: document.getElementById('f-deadline').value,
+      link: document.getElementById('f-link').value.trim(),
+      notes: document.getElementById('f-notes').value.trim()
+    };
+    if (editingId) {
+      const idx = entries.findIndex(en => en.id === editingId);
+      if (idx > -1) entries[idx] = { ...entries[idx], ...data };
+    } else {
+      entries.push({ id: 'e-' + Date.now(), ...data });
+    }
+    await save();
+    overlay.style.display = 'none';
+    render();
+  });
+
+  load();
+})();
+</script>
