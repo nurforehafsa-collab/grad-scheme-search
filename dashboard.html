@@ -1,0 +1,441 @@
+<style>
+  :root {
+    --ink: #0F1B26;
+    --blueprint: #16283A;
+    --blueprint-line: #3E5C76;
+    --blueprint-line-soft: #2A4258;
+    --chalk: #EAF0F2;
+    --chalk-dim: #A9BAC6;
+    --brass: #C89A4A;
+    --rust: #B6603F;
+    --moss: #6B8F71;
+    --teal: #4FA3A0;
+    --green: #4C9A4F;
+    --red: #C1483D;
+    --grey: #75808A;
+    --card-paper: #EDE7D8;
+    --card-ink: #1E2A22;
+    --radius: 3px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ink);
+  }
+
+  #gst-root {
+    font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+    background: var(--ink);
+    background-image:
+      repeating-linear-gradient(0deg, var(--blueprint-line-soft) 0px, transparent 1px, transparent 32px, var(--blueprint-line-soft) 33px),
+      repeating-linear-gradient(90deg, var(--blueprint-line-soft) 0px, transparent 1px, transparent 32px, var(--blueprint-line-soft) 33px);
+    background-size: 33px 33px;
+    color: var(--chalk);
+    padding: 28px 20px 60px;
+    min-height: 100vh;
+  }
+
+  .gst-mono { font-family: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+
+  /* Header */
+  .gst-header {
+    max-width: 1100px;
+    margin: 0 auto 10px;
+    border: 1px solid var(--blueprint-line);
+    background: rgba(22, 40, 58, 0.6);
+    padding: 20px 24px;
+    position: relative;
+  }
+  .gst-header::before {
+    content: "";
+    position: absolute; top: 8px; left: 8px; right: 8px; bottom: 8px;
+    border: 1px solid var(--blueprint-line-soft);
+    pointer-events: none;
+  }
+  .gst-eyebrow {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    color: var(--brass);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .gst-title {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    margin: 0 0 4px;
+    text-wrap: balance;
+  }
+  .gst-sub {
+    color: var(--chalk-dim);
+    font-size: 14px;
+    max-width: 640px;
+    line-height: 1.5;
+  }
+  .gst-generated {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--teal);
+    margin-top: 10px;
+    letter-spacing: 0.03em;
+  }
+
+  .gst-status-msg {
+    max-width: 1100px;
+    margin: 0 auto 14px;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--chalk-dim);
+  }
+  .gst-status-msg strong { color: var(--chalk); }
+
+  /* Tabs */
+  .gst-tabs {
+    max-width: 1100px;
+    margin: 0 auto 22px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .gst-tab {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    background: transparent;
+    border: 1px solid var(--blueprint-line);
+    color: var(--chalk-dim);
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: var(--radius);
+    transition: all 0.15s ease;
+  }
+  .gst-tab:hover { border-color: var(--brass); color: var(--chalk); }
+  .gst-tab:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+  .gst-tab.active { background: var(--brass); border-color: var(--brass); color: var(--ink); font-weight: 600; }
+
+  /* Sections */
+  .gst-section {
+    max-width: 1100px;
+    margin: 0 auto 32px;
+  }
+  .gst-section-title {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--brass);
+    border-bottom: 1px solid var(--blueprint-line);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .gst-section-title .gst-count { color: var(--chalk-dim); font-weight: normal; letter-spacing: 0.04em; }
+  .gst-section.track-2 .gst-section-title { color: var(--rust); }
+
+  /* Board */
+  .gst-board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 18px;
+  }
+
+  .gst-empty {
+    max-width: 1100px;
+    margin: 20px auto;
+    text-align: center;
+    color: var(--chalk-dim);
+    font-size: 14px;
+  }
+
+  /* Record card */
+  .gst-card {
+    background: var(--card-paper);
+    color: var(--card-ink);
+    border-radius: var(--radius);
+    padding: 16px 16px 14px;
+    position: relative;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+    border-left: 4px solid var(--brass);
+  }
+  .gst-card.track-2 { border-left-color: var(--rust); }
+  .gst-card.deprioritised { opacity: 0.55; }
+
+  .gst-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .gst-ref {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    color: #6B6455;
+    text-transform: uppercase;
+  }
+  .gst-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 2px 0 2px;
+    text-wrap: balance;
+  }
+  .gst-card-employer {
+    font-size: 12.5px;
+    color: #4A4436;
+    font-weight: 600;
+  }
+
+  .gst-stamp {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: rotate(-9deg);
+    flex-shrink: 0;
+    line-height: 1.1;
+    padding: 4px;
+  }
+
+  .gst-meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 11.5px;
+    margin: 10px 0 4px;
+    border-top: 1px dashed #B8AF98;
+    padding-top: 8px;
+  }
+  .gst-deadline-label { color: #6B6455; }
+  .gst-deadline-value { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .gst-deadline-value.urgent { color: var(--red); }
+  .gst-deadline-value.ok { color: #3E6B3F; }
+
+  .gst-flag {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #8A5A1E;
+    background: rgba(200,154,74,0.25);
+    border: 1px solid rgba(138,90,30,0.35);
+    padding: 2px 7px;
+    border-radius: 3px;
+    margin: 8px 0 0;
+  }
+
+  .gst-notes {
+    font-size: 12.5px;
+    color: #3A3529;
+    line-height: 1.45;
+    margin: 6px 0 10px;
+  }
+
+  .gst-card-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px dashed #B8AF98;
+    padding-top: 8px;
+    margin-top: 4px;
+  }
+
+  .gst-link {
+    font-size: 11.5px;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    color: #2A5D8F;
+    text-decoration: underline;
+  }
+  .gst-link:focus-visible { outline: 2px solid #2A5D8F; outline-offset: 2px; }
+  .gst-no-link {
+    font-size: 11.5px;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    color: #8C8672;
+  }
+
+  .gst-footer {
+    max-width: 1100px;
+    margin: 30px auto 0;
+    border-top: 1px solid var(--blueprint-line);
+    padding-top: 14px;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--chalk-dim);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 480px) {
+    .gst-title { font-size: 22px; }
+    .gst-board { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div id="gst-root">
+  <div class="gst-header">
+    <div class="gst-eyebrow">Field Record &middot; Career Survey &middot; Read-Only Snapshot</div>
+    <div class="gst-title">Graduate Scheme &amp; Placement Tracker</div>
+    <div class="gst-sub">Building surveying and heritage engagement opportunities, logged like site records. Building Surveying (Track 1) and Heritage &amp; Community Engagement (Track 2), tracked weekly for a part-time MSc Building Surveying student.</div>
+    <div class="gst-generated gst-mono">GENERATED 2026-08-08 &middot; this run's search</div>
+  </div>
+
+  <div class="gst-status-msg" id="gst-status"></div>
+
+  <div class="gst-tabs">
+    <button class="gst-tab active" data-track="all">All entries</button>
+    <button class="gst-tab" data-track="1">Track 1 &middot; Building Surveying</button>
+    <button class="gst-tab" data-track="2">Track 2 &middot; Heritage &amp; Community</button>
+  </div>
+
+  <div id="gst-sections"></div>
+  <div class="gst-empty" id="gst-empty" style="display:none;">No entries logged for this track.</div>
+
+  <div class="gst-footer gst-mono">
+    Snapshot generated 2026-08-08 by the weekly grad scheme search agent. Read-only report &mdash; edits happen in the source tracker, not here. Deprioritised entries are shown dimmed but kept for the record.
+  </div>
+</div>
+
+<script>
+(function() {
+  const entries = [{"id": "seed-1", "name": "Graduate Development Programme", "employer": "Turner & Townsend", "track": "1", "status": "not_started", "deadline": "2026-11-13", "link": "https://www.turnerandtownsend.com/join-us/early-careers/uk-graduate-development-programme/", "notes": "2027 cohort opens 17 Sept 2026. Includes a building surveying pathway. Confirmed 2026-08-07: applications open 17 Sept, close 13 Nov 2026; online assessments Sept-Nov; assessment centres Nov 2026-Mar 2027. Reconfirmed 2026-08-08: dates unchanged."}, {"id": "seed-2", "name": "Building Surveying Graduate Scheme", "employer": "AtkinsRéalis", "track": "1", "status": "researching", "deadline": "", "link": "https://careers.atkinsrealis.com/uk-early-careers", "notes": "Rolling recruitment on their Early Careers site, worth checking live status directly. Confirmed 2026-08-07: graduate schemes/placements/apprenticeships currently closed, reopening Autumn 2026. Reconfirmed 2026-08-08: still closed, no change."}, {"id": "seed-3", "name": "UK Graduate Programme", "employer": "CBRE", "track": "1", "status": "not_started", "deadline": "", "link": "https://www.cbre.co.uk/careers/students-and-graduates/commercial-real-estate-graduate-programs", "notes": "Advisory/workplace solutions route, crossover with real estate and heritage assets. Confirmed 2026-08-07: 2-year Building Surveying pathway within Project Management & Building Consultancy dept, supports RICS APC; requires RICS-accredited degree/masters, 2:1 min. No 2027 deadline published yet, page returned 403 on direct fetch this run - check manually. Reconfirmed 2026-08-08: still no 2027 deadline published; direct page fetch blocked by network egress policy this run, relied on search summaries only."}, {"id": "seed-4", "name": "Fast Stream 2027 Intake", "employer": "Civil Service", "track": "2", "status": "not_started", "deadline": "2026-11-05", "link": "https://www.civil-service-careers.gov.uk/fast-stream", "notes": "Reopens Oct 2026. Heritage-adjacent policy route, e.g. DCMS. Confirmed 2026-08-07: pattern still applications open ~Oct, close ~early Nov, consistent with tracked deadline; official 2027 dates not yet formally published. Reconfirmed 2026-08-08: still no formal 2027 dates; official page fetch blocked by network egress policy this run, estimate unchanged."}, {"id": "seed-5", "name": "Assistant Building Surveyor", "employer": "Frankham", "track": "1", "status": "applied", "deadline": "", "link": "https://www.frankham.com/jobs/assistant-building-surveyor/", "notes": "Condition surveys, measured surveys, party wall and dilapidations. APC support in benefits. Tailored CV and cover letter sent. Role still listed live as of 2026-08-07. Reconfirmed 2026-08-08: still listed live, no change to application status."}, {"id": "seed-6", "name": "Assistant Surveyor (QS)", "employer": "Wates", "track": "1", "status": "deprioritised", "deadline": "", "link": "", "notes": "Quantity surveying focus, off the heritage building surveying trajectory. Hard-excluded: QS-only, no building surveying pathway."}, {"id": "seed-7", "name": "Graduate Programme (Investment/Development)", "employer": "Watkin Jones", "track": "1", "status": "deprioritised", "deadline": "", "link": "", "notes": "New-build residential investment and development. No heritage angle. Hard-excluded: new-build/investment-only, no heritage or surveying-practice angle."}, {"id": "seed-8", "name": "Assistant Surveyor (QS)", "employer": "WPS / Wates", "track": "1", "status": "deprioritised", "deadline": "", "link": "", "notes": "Commercial QS role on public-sector projects. Different RICS pathway to building surveying, no heritage overlap. Hard-excluded: QS-only, no building surveying pathway."}, {"id": "e-20260807-01", "name": "Graduate Building Surveyor", "employer": "SRVO", "track": "1", "status": "deprioritised", "deadline": "2026-08-10", "link": "https://www.ricsrecruit.com/job/253981/graduate-building-surveyor/", "notes": "Found via RICS Recruit. Hybrid London/South. Requires RICS-accredited building surveying degree already completed, APC pathway support, chartership targeted in 12-24 months. Deprioritised 2026-08-07: assumes completed degree, incompatible with ongoing part-time MSc (to Aug 2027). Deadline was 2026-08-10 anyway."}, {"id": "e-20260807-02", "name": "Graduate Building Surveyor - Birmingham", "employer": "Turner Property Recruitment", "track": "1", "status": "deprioritised", "deadline": "", "link": "https://www.ricsrecruit.com/job/256398/graduate-building-surveyor-birmingham/", "notes": "Found via RICS Recruit. Birmingham, £34,000. Deprioritised 2026-08-07: not commutable to Kingston University for ongoing part-time MSc; hard-excluded going forward."}, {"id": "e-20260807-03", "name": "Graduate Building Surveyor - London", "employer": "Turner Property Recruitment", "track": "1", "status": "not_started", "deadline": "", "link": "https://www.ricsrecruit.com/job/256392/graduate-building-surveyor-london/", "notes": "Found via RICS Recruit. London, competitive salary. Location fits, but likely assumes a completed degree (standard 'graduate' agency listing) - worth a direct enquiry about part-qualified/currently-studying candidates before ruling out. Reconfirmed 2026-08-08: still listed, no change."}, {"id": "e-20260807-04", "name": "Graduate Building Surveyor", "employer": "HD Surveyors", "track": "1", "status": "deprioritised", "deadline": "", "link": "https://www.ricsrecruit.com/job/256066/graduate-building-surveyor/", "notes": "Found via RICS Recruit. Glasgow, circa £27,000 + bonus + benefits. Deprioritised 2026-08-07: not commutable to Kingston University for ongoing part-time MSc; hard-excluded going forward."}, {"id": "e-20260807-05", "name": "Graduate Building Surveyor - APC Support (Warwickshire)", "employer": "Zodiac Recruitment", "track": "1", "status": "deprioritised", "deadline": "", "link": "https://www.ricsrecruit.com/job/256314/graduate-building-surveyor-apc-support-immediate-summer-start/", "notes": "Found via RICS Recruit. Warwickshire, £25,000-£30,000, immediate summer start, APC support explicit. Deprioritised 2026-08-07: immediate full-time start + non-commutable location incompatible with ongoing part-time MSc; hard-excluded going forward."}, {"id": "e-20260807-06", "name": "Graduate Building Surveyor - APC Support (Dartford)", "employer": "Zodiac Recruitment", "track": "1", "status": "deprioritised", "deadline": "", "link": "https://www.ricsrecruit.com/job/256219/graduate-building-surveyor-apc-support/", "notes": "Found via RICS Recruit. Dartford, Kent, £25,000-£30,000, APC support explicit. Deprioritised 2026-08-07: immediate-start framing likely assumes a completed degree; hard-excluded going forward pending direct enquiry."}, {"id": "e-20260807-07", "name": "Engagement Officer - Roding Rises", "employer": "Thames21", "track": "2", "status": "not_started", "deadline": "2026-08-07", "link": "https://environmentjob.co.uk/jobs/107892-engagement-officer-roding-rises", "notes": "FLAGGED - UNCERTAIN FIT: community river-engagement role (River Roding restoration), funded by the National Lottery Heritage Fund, but this is environmental/river heritage rather than built-heritage or building surveying. Part-time 0.3 FTE (1.5 days/week), 2.5-year contract to Mar 2029, London (Guildhall-adjacent), £36,353-£38,536 pro rata. Deadline was 2026-08-07, now passed - no longer actionable. Kept per instructions to never revert/drop an existing entry rather than delete."}, {"id": "e-20260808-01", "name": "Graduate Building Surveyor - Central London", "employer": "Brandon James", "track": "1", "status": "not_started", "deadline": "", "link": "https://www.ricsrecruit.com/job/253194/graduate-building-surveyor-/?TrackID=124", "notes": "Found via RICS Recruit 2026-08-08. Central London, projects span commercial/residential/retail/heritage/public sectors, full APC support. FLAGGED - UNCERTAIN FIT: standard graduate-agency ad, likely assumes a completed RICS-accredited degree; worth a direct enquiry about part-qualified/currently-studying candidates before ruling out (same caveat as Turner Property Recruitment - London, e-20260807-03). Detail confirmed via search summary only - ricsrecruit.com direct fetch blocked by network egress policy this run."}, {"id": "e-20260808-02", "name": "Graduate Building Surveyor - City of London", "employer": "Brandon James", "track": "1", "status": "not_started", "deadline": "", "link": "https://www.ricsrecruit.com/job/253362/graduate-building-surveyor/?TrackID=124", "notes": "Found via RICS Recruit 2026-08-08. £28,000-£35,000, 28 days annual leave + bank holidays, structured APC support and mentorship. Framed as 'on the APC pathway or intending to work towards chartership' - slightly more open than most, but still worth confirming compatibility with an ongoing part-time MSc directly. Detail confirmed via search summary only - direct fetch blocked this run."}, {"id": "e-20260808-03", "name": "Graduate Building Surveyor - London", "employer": "EC Property Recruitment", "track": "1", "status": "not_started", "deadline": "", "link": "https://www.ricsrecruit.com/job/256025/graduate-building-surveyor-/?TrackID=124", "notes": "Found via RICS Recruit 2026-08-08. £27,000-£30,000, Private Healthcare, Professional Membership Support, APC Support, Hybrid Working. FLAGGED - UNCERTAIN FIT: standard graduate-agency ad, likely assumes a completed degree; worth direct enquiry re part-qualified candidates. Detail confirmed via search summary only - direct fetch blocked this run."}, {"id": "e-20260808-04", "name": "Graduate Building Surveyor - Central London", "employer": "Carriera Recruitment", "track": "1", "status": "not_started", "deadline": "", "link": "https://www.ricsrecruit.com/job/251890/graduate-building-surveyor/?TrackID=124", "notes": "Found via RICS Recruit 2026-08-08. x2 openings. Commercial projects, TDD & dilapidations focus, strong APC support quoted. FLAGGED - UNCERTAIN FIT: same completed-degree caveat as other RICS Recruit graduate listings; worth direct enquiry. Detail confirmed via search summary only - direct fetch blocked this run."}, {"id": "e-20260808-05", "name": "Graduate Building Surveyor - Tower Bridge", "employer": "Carriera Recruitment", "track": "1", "status": "not_started", "deadline": "", "link": "https://www.ricsrecruit.com/job/249376/graduate-building-surveyor/?TrackID=124", "notes": "Found via RICS Recruit 2026-08-08. x2 openings, boutique consultancy, 100% APC pass rate quoted. FLAGGED - UNCERTAIN FIT: same completed-degree caveat as other RICS Recruit graduate listings. Detail confirmed via search summary only - direct fetch blocked this run."}, {"id": "e-20260808-06", "name": "Graduate Building Surveyor - London", "employer": "HD Surveyors", "track": "1", "status": "not_started", "deadline": "", "link": "https://www.ricsrecruit.com/job/253458/graduate-building-surveyor/?TrackID=124", "notes": "Found via RICS Recruit 2026-08-08. Distinct posting from the existing deprioritised HD Surveyors - Glasgow entry (e-20260807-04) - this one is London-based so the location exclude doesn't apply. Permanent, hybrid working, structured APC progression. FLAGGED - UNCERTAIN FIT: standard graduate-agency ad, likely assumes a completed degree; worth direct enquiry. Detail confirmed via search summary only - direct fetch blocked this run."}, {"id": "e-20260808-07", "name": "Community Engagement and Volunteer Coordinator", "employer": "Bevis Marks Synagogue Heritage Foundation", "track": "2", "status": "not_started", "deadline": "", "link": "https://www.charityjob.co.uk/jobs/bevis-marks-synagogue-heritage-foundation/community-engagement-and-volunteer-co-ordinator/1022646", "notes": "Found via CharityJob search 2026-08-08. Historic Bevis Marks Synagogue (built 1701, oldest in the UK), City of London - strong built-heritage/community-engagement fit for Track 2, establishing a community engagement and volunteer programme at the visitor attraction. FLAGGED - UNCERTAIN CURRENCY: search results mixed what looks like a 2024 posting (deadline 8 Jul, salary quoted £27k-£33k) with a possible re-listing (salary quoted £35k-£38k); could not confirm whether this specific CharityJob listing is currently live or a stale/cached duplicate - charityjob.co.uk direct fetch blocked by network egress policy this run. Check charityjob.co.uk directly before applying."}];
+  let activeTrack = 'all';
+
+  const sectionsEl = document.getElementById('gst-sections');
+  const empty = document.getElementById('gst-empty');
+  const statusMsg = document.getElementById('gst-status');
+
+  const STATUS_LABELS = {
+    not_started: 'Not started',
+    researching: 'Researching',
+    applied: 'Applied',
+    interview: 'Interview',
+    offer: 'Offer',
+    rejected: 'Rejected',
+    deprioritised: 'Deprioritised'
+  };
+  const STATUS_COLORS = {
+    not_started: '#5C7A94',
+    researching: '#B8863C',
+    applied: '#6B8F71',
+    interview: '#4FA3A0',
+    offer: '#3F9142',
+    rejected: '#C1483D',
+    deprioritised: '#75808A'
+  };
+  const TRACK_LABELS = { '1': 'Track 1 \u00b7 Building Surveying', '2': 'Track 2 \u00b7 Heritage & Community' };
+
+  function daysUntil(dateStr) {
+    if (!dateStr) return null;
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    const d = new Date(dateStr + 'T00:00:00');
+    return Math.round((d - today) / 86400000);
+  }
+
+  function sortByDeadline(list) {
+    return [...list].sort((a, b) => {
+      if (!a.deadline && !b.deadline) return 0;
+      if (!a.deadline) return 1;
+      if (!b.deadline) return -1;
+      return new Date(a.deadline) - new Date(b.deadline);
+    });
+  }
+
+  function escapeHtml(str) {
+    const d = document.createElement('div');
+    d.textContent = str || '';
+    return d.innerHTML;
+  }
+
+  function cardHtml(entry) {
+    const days = daysUntil(entry.deadline);
+    let deadlineHtml = '<span class="gst-deadline-value ok">Rolling</span>';
+    if (entry.deadline) {
+      const urgent = days !== null && days <= 21 && days >= 0 && !['applied','rejected','offer','deprioritised'].includes(entry.status);
+      const label = days < 0 ? 'Closed' : (days === 0 ? 'Today' : days + ' day' + (days === 1 ? '' : 's'));
+      deadlineHtml = '<span class="gst-deadline-value ' + (urgent ? 'urgent' : 'ok') + '">' + label + '</span>';
+    }
+    const refCode = (entry.track === '1' ? 'BS' : 'HC') + '-' + entry.id.slice(-4).toUpperCase();
+    const color = STATUS_COLORS[entry.status];
+    const flagged = /FLAGGED/.test(entry.notes || '');
+
+    return `
+      <div class="gst-card track-${entry.track}${entry.status === 'deprioritised' ? ' deprioritised' : ''}">
+        <div class="gst-card-top">
+          <div>
+            <div class="gst-ref gst-mono">REF ${refCode}</div>
+            <div class="gst-card-title">${escapeHtml(entry.name)}</div>
+            <div class="gst-card-employer">${escapeHtml(entry.employer)}</div>
+          </div>
+          <div class="gst-stamp" style="color:${color}">${STATUS_LABELS[entry.status]}</div>
+        </div>
+        <div class="gst-meta-row">
+          <span class="gst-deadline-label">Deadline</span>
+          ${deadlineHtml}
+        </div>
+        ${flagged ? '<div class="gst-flag">Flagged &middot; review fit</div>' : ''}
+        ${entry.notes ? '<div class="gst-notes">' + escapeHtml(entry.notes) + '</div>' : ''}
+        <div class="gst-card-actions">
+          ${entry.link ? `<a class="gst-link" href="${escapeHtml(entry.link)}" target="_blank" rel="noopener">Open listing &rarr;</a>` : '<span class="gst-no-link">No link on file</span>'}
+        </div>
+      </div>
+    `;
+  }
+
+  function render() {
+    sectionsEl.innerHTML = '';
+    const tracks = activeTrack === 'all' ? ['1', '2'] : [activeTrack];
+    let totalShown = 0;
+
+    tracks.forEach(track => {
+      const list = sortByDeadline(entries.filter(e => e.track === track));
+      if (list.length === 0) return;
+      totalShown += list.length;
+
+      const section = document.createElement('div');
+      section.className = 'gst-section track-' + track;
+      section.innerHTML = `
+        <div class="gst-section-title">
+          <span>${TRACK_LABELS[track]}</span>
+          <span class="gst-count gst-mono">${list.length} logged</span>
+        </div>
+        <div class="gst-board">${list.map(cardHtml).join('')}</div>
+      `;
+      sectionsEl.appendChild(section);
+    });
+
+    empty.style.display = totalShown === 0 ? 'block' : 'none';
+    const total = entries.length;
+    statusMsg.innerHTML = 'Showing <strong>' + totalShown + '</strong> of <strong>' + total + '</strong> tracked entries.';
+  }
+
+  document.querySelectorAll('.gst-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.gst-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      activeTrack = tab.getAttribute('data-track');
+      render();
+    });
+  });
+
+  render();
+})();
+</script>

@@ -1,46 +1,49 @@
-# Weekly summary — week of 2026-08-07
+# Weekly summary — week of 2026-08-08
 
 ## New postings found (7)
 
-**Track 1 — Building Surveying**
+**Track 1 — Building Surveying** (all via RICS Recruit)
 
-- **Graduate Building Surveyor — SRVO** (Hybrid London/South). RICS-accredited degree required, explicit APC pathway support, chartership targeted in 12-24 months. **Deadline 2026-08-10 — only 3 days out, review first.**
-- **Graduate Building Surveyor — Birmingham — Turner Property Recruitment**. £34,000. Fits Track 1 (graduate building surveying, no hard excludes triggered). No deadline shown on listing.
-- **Graduate Building Surveyor — London — Turner Property Recruitment**. Competitive salary. Same fit reasoning as above.
-- **Graduate Building Surveyor — Glasgow — HD Surveyors**. Circa £27,000 + bonus. Fits Track 1.
-- **Graduate Building Surveyor (APC Support) — Warwickshire — Zodiac Recruitment**. £25k-£30k, immediate summer start, APC support explicit — strong fit.
-- **Graduate Building Surveyor (APC Support) — Dartford, Kent — Zodiac Recruitment**. £25k-£30k, APC support explicit — strong fit.
+- **Graduate Building Surveyor — Central London — Brandon James**. Projects span commercial/residential/retail/heritage/public sectors, full APC support.
+- **Graduate Building Surveyor — City of London — Brandon James**. £28,000-£35,000, 28 days annual leave + bank holidays, structured APC support and mentorship. Framed as "on the APC pathway or intending to work towards chartership" — slightly more open language than most of this batch.
+- **Graduate Building Surveyor — London — EC Property Recruitment**. £27,000-£30,000, Private Healthcare, Professional Membership Support, APC Support, Hybrid Working.
+- **Graduate Building Surveyor — Central London — Carriera Recruitment**. x2 openings, commercial projects, TDD & dilapidations focus, strong APC support quoted.
+- **Graduate Building Surveyor — Tower Bridge — Carriera Recruitment**. x2 openings, boutique consultancy, 100% APC pass rate quoted.
+- **Graduate Building Surveyor — London — HD Surveyors**. Distinct posting from the existing deprioritised HD Surveyors – Glasgow entry — this one is London-based, so the non-commutable-location exclude doesn't apply. Permanent, hybrid, structured APC progression.
+
+All six are standard graduate-agency listings and **FLAGGED — uncertain fit**: the ad copy doesn't say outright whether a part-qualified/currently-studying candidate is acceptable (same open question as last week's Turner Property Recruitment — London entry). Kept per instructions to include-and-flag rather than drop. Worth a direct enquiry to each agency about compatibility with an ongoing part-time MSc before applying.
 
 **Track 2 — Heritage & Community**
 
-- **Engagement Officer, Roding Rises — Thames21**. £36,353-£38,536 pro rata, 0.3 FTE (1.5 days/week), 2.5-year contract to Mar 2029, London. National Lottery Heritage Fund-backed river restoration/community engagement project. **Flagged uncertain fit** — this is environmental/river heritage, not built-heritage or building surveying, so it's a stretch against the usual Track 2 criteria. Also **deadline is today (2026-08-07)**, so realistically not actionable this cycle. Included per instructions (flag rather than drop) but low priority.
+- **Community Engagement and Volunteer Coordinator — Bevis Marks Synagogue Heritage Foundation**. Historic Bevis Marks Synagogue (built 1701, oldest in the UK), City of London — strong built-heritage/community-engagement fit for Track 2, establishing a community engagement and volunteer programme at the visitor attraction. **FLAGGED — uncertain currency**: search results mixed what looks like a 2024 posting (deadline 8 Jul, salary £27k-£33k) with a possible re-listing (salary £35k-£38k) — couldn't confirm via direct fetch whether the specific CharityJob listing found is currently live or a stale/cached duplicate (charityjob.co.uk fetch was blocked this run, see Source notes below). Check charityjob.co.uk directly before applying.
 
 ## Deadline changes on existing entries
 
-None of the tracked deadlines changed. Confirmed as still accurate:
-- Turner & Townsend Graduate Development Programme: still 2026-11-13 (2027 cohort opens 17 Sept 2026).
-- Civil Service Fast Stream: still 2026-11-05, consistent with the usual Oct-open/Nov-close pattern (official 2027 exact dates not yet published).
+None of the tracked deadlines changed. Reconfirmed as still accurate:
+- Turner & Townsend Graduate Development Programme: still 2026-11-13 (2027 cohort opens 17 Sept 2026) — dates unchanged from last week.
+- Civil Service Fast Stream: still 2026-11-05 estimate — official 2027 dates still not formally published; direct page fetch blocked this run (see below), no change to the tracked estimate.
 
-Notes/links refreshed on 5 existing entries (Turner & Townsend, AtkinsRéalis, CBRE, Fast Stream, Frankham) — added direct links and confirmed current status (e.g. AtkinsRéalis graduate schemes are currently closed, reopening Autumn 2026; Frankham's Assistant Building Surveyor posting is still live). No statuses were changed — Frankham stays "applied", AtkinsRéalis stays "researching".
+Light "reconfirmed" notes added to 6 existing entries (Turner & Townsend, AtkinsRéalis, CBRE, Fast Stream, Frankham, Turner Property Recruitment — London) — no statuses changed. Frankham stays "applied", AtkinsRéalis stays "researching".
 
 ## Excluded this run
 
-- **Shoreditch Trust — Community Table Coordinator**. Community engagement in title, but the role is a food/cooking/wellbeing programme with no heritage, culture, or built-environment angle — too far off Track 2's heritage focus to include.
-- **Zodiac Recruitment — Graduate Building Surveyor, Dublin, Ireland**. Otherwise fits Track 1 criteria but is outside the UK, inconsistent with the rest of this tracker — excluded on scope grounds rather than a hard exclude.
-- A "British Museum Events Coordinator" role surfaced in initial search summaries, but a direct check of the British Museum's CharityJob organisation page showed **zero live listings** — the search result was stale/mis-indexed. Not added.
+- **British Museum — Events Coordinator (CharityJob)**. Same listing flagged as stale/mis-indexed last week — now confirmed: its deadline was 12pm, 15 May 2026, already three months past. Not added.
+- **Royal Albert Hall role (via CultureJobs/search)**. Deadline 20 Jul 2026, already passed. Stale/closed, not added.
+- A handful of other Track 2 leads surfaced only as vague search snippets this run (a generic recruiter "Events Coordinator" listing, an unnamed "400-acre estate" events role, an international heritage-crafts charity events role) — none had enough confirmed detail (employer name, direct link, or deadline) to evaluate against the fit rules, and direct verification fetches were blocked (see Source notes). Not added; worth re-checking next run once fetch access is restored.
 
 ## Source notes / parsing issues
 
-- **CBRE UK careers page** (`cbre.co.uk/careers/students-and-graduates`) returned an HTTP 403 on direct fetch this run — had to rely on search-result summaries instead of the live page. Building Surveying pathway details (2-year programme, RICS-accredited degree, 2:1 min) were corroborated via search, but no 2027 deadline could be confirmed. Worth checking manually if you have a spare few minutes.
-- **CultureJobs / Arts Council-adjacent boards**: search did not surface a distinct, separately-indexed listings page this week (results kept resolving back to CharityJob's arts/culture/heritage filter). Flagging explicitly rather than silently skipping — recommend a direct site visit next run to confirm whether this source is still live/indexable this way.
-- **AtkinsRéalis**: the specific graduate scheme job page from last run no longer resolves to an active listing — the Early Careers site now states schemes/placements/apprenticeships are closed and reopen Autumn 2026. Not a parsing failure, just a seasonal gap.
+- **Network egress policy change this run**: direct `WebFetch` calls to `ricsrecruit.com`, `charityjob.co.uk`, and `civil-service-careers.gov.uk` were all blocked ("EGRESS_BLOCKED") by the network proxy. This is new — those same domains were fetchable in prior runs. Everything sourced from these three sites this week is based on `WebSearch` result summaries only, not verified full-page fetches. That's a real fidelity downgrade: exact closing dates and precise degree-requirement wording on the six new RICS Recruit listings and the Bevis Marks CharityJob listing could not be independently double-checked. Flagging so a human can spot-check the live pages directly, and so future runs know to watch whether this is a persistent policy change or a one-off blip.
+- **CBRE UK careers page**: still no 2027 deadline confirmed via search; direct fetch blocked this run same as above (last run it was a 403, this run a proxy block — page itself remains unverified two runs running).
+- **CultureJobs / Arts Council-adjacent boards**: continues to mostly resolve back into CharityJob's arts/culture/heritage filter rather than a distinct indexable board, consistent with last week's note.
+- **Bevis Marks Synagogue Heritage Foundation** listing: see uncertain-currency flag above — recommend manual confirmation.
 
-## Gmail draft
+## Dashboard
 
-Skipped — the Gmail connector isn't attached in this session (no authenticated Gmail MCP tool available). Once you authorize it via claude.ai connector settings, future runs can draft this summary directly to your inbox.
+Published a static, read-only dashboard snapshot (reusing the original tracker board's blueprint/brass card design) at the URL below, generated directly from this run's `tracker.json`. This is the first run publishing via the Artifact tool — the URL has been saved to `tracker.json`'s top-level `dashboard_url` field so future runs update the same page instead of minting a new one.
 
-## Fit rules updated (2026-08-07, post-run)
+**Dashboard:** https://claude.ai/code/artifact/fad5e6b1-cff1-4497-a113-7ea44d030f9a
 
-Added new hard excludes to README.md/run_prompt.txt, since Hafsa is still mid part-time MSc Building Surveying (to Aug 2027): roles requiring an already-completed RICS-accredited degree, immediate full-time starts, and non-London/non-Kingston-commutable locations for immediate-start Track 1 roles (2027-cohort schemes like Turner & Townsend and Fast Stream are exempt, since they start after the MSc finishes).
+## Fit rules
 
-Deprioritised this run's affected entries against the new rules: SRVO (completed-degree requirement, deadline passed anyway), Turner Property Recruitment - Birmingham (location), HD Surveyors - Glasgow (location), Zodiac - Warwickshire and Zodiac - Dartford (immediate start / degree requirement). Turner Property Recruitment - London kept as "not_started" since location fits — worth a direct enquiry about part-qualified candidates before ruling out.
+No changes to fit rules this run (last updated 2026-08-07, see README.md). All new entries evaluated against the existing hard excludes, including the completed-degree/immediate-start/non-commutable-location rules, with the 2027-cohort location exemption applied where relevant.
