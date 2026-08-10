@@ -1,85 +1,101 @@
-# Weekly summary — week of 2026-08-08
+# Weekly summary — week of 2026-08-10
 
-**Note on cadence:** this run fired at 11:21 UTC, 2026-08-08 — the same day as the
-previous run (01:57 UTC, 2026-08-08). Two runs landed on the same calendar day
-because of how the schedule fired this week, not because anything requested it.
-Sources were re-checked lightly rather than re-crawled in depth, since almost
-nothing changes source-side in a ~9.5 hour window. One genuinely new lead
-surfaced (SPAB, below); everything else tracked from the morning run held
-steady.
+## New postings found (5)
 
-## New postings found (1)
+**Track 2 — Heritage Building Conservation**
 
-**Track 2 — Heritage & Community**
+- **Assistant Building Surveyor (Heritage and Conservation) — Faithful+Gould**
+  (part of the AtkinsRéalis group). London, dedicated heritage building
+  surveying team working on architecturally/historically important assets.
+  Assistant-level, RICS-accredited Building Surveying degree expected;
+  archaeology/conservation/architectural-history background and IHBC
+  membership called out as beneficial. Strong Track 2 fit — genuinely
+  hands-on heritage building surveying, not programme/community work.
+  FLAGGED: deadline, start date and salary unconfirmed — `careers.fgould.com`
+  direct fetch blocked this run, sourced from search snippets only.
+- **Building Surveyor (Heritage and Conservation) — Faithful+Gould**. Same
+  London heritage team as above, but a separate non-"Assistant" listing
+  wanting "proven ability and specialism" — may sit above entry level.
+  Included rather than dropped (nothing states 5+ years explicitly).
+  FLAGGED: experience threshold, deadline, and start date unconfirmed —
+  `careers.atkinsglobal.com` direct fetch blocked this run.
 
-- **Learning Programmes Manager — SPAB (Society for the Protection of Ancient
-  Buildings)**. SPAB is the leading UK building conservation charity (founded
-  by William Morris, 1877) — strong built-heritage fit. Coordinates and
-  delivers SPAB's annual Scholarship and Fellowship learning programmes.
-  £36,000–£40,000, location flexible. **Deadline 19 Aug 2026 — only 11 days
-  out, the most urgent item in the tracker right now.** FLAGGED — uncertain
-  fit on two counts: titled "Manager" not "Coordinator" (included anyway —
-  substance is programme coordination, close enough to the Track 2
-  coordinator/programme-administrator criteria); and full-time status /
-  start-date flexibility isn't confirmed, so compatibility with an ongoing
-  part-time MSc needs a direct check before applying. The link saved is a
-  Heritage Alliance write-up with an "apply here" pointer, not confirmed to
-  be SPAB's own posting URL — verify on spab.org.uk or charityjob.co.uk given
-  the tight deadline.
+**Track 1 — Building Surveying**
 
-No new Track 1 leads: the RICS Recruit search returned the same eight
-postings already in the tracker (Brandon James ×2, EC Property Recruitment,
-Carriera Recruitment ×2, HD Surveyors, Turner Property Recruitment ×2) —
-nothing new since this morning.
+- **Graduate Building Surveyor — Arcadis**. London, 3-year GROW graduate
+  programme. Arcadis's general 2027-cohort "register interest" pages mention
+  a 31 Aug 2026 deadline and a "graduating 2026 or recently graduated"
+  framing — unconfirmed whether this specific listing carries the same
+  wording (which could trip the completed-degree hard exclude) or a
+  later-start variant. FLAGGED: deadline, start date, and degree-completion
+  requirement unconfirmed for this specific role — `jobs.arcadis.com` and
+  `gradcracker.com` direct fetches blocked this run.
+
+**Track 2 — added as deprioritised (audit trail, not actionable)**
+
+- **Proud Places Project Officer — Heritage of London Trust**. Youth/school
+  engagement programme built around HOLT's restoration projects. Excluded:
+  community/education engagement, not hands-on building-fabric work — same
+  pattern as the existing Bevis Marks and Thames21 exclusions.
+- **Head of Projects — Heritage of London Trust**. Oversees HOLT's full
+  restoration project portfolio — building-fabric-adjacent in substance, but
+  explicitly framed as an "experienced" project-manager/leadership hire, not
+  a graduate-appropriate entry point. Excluded on seniority (no explicit
+  years figure stated, so not a firm hard-exclude match, but ruled out in
+  practice).
+
+No new Track 1 leads from RICS Recruit or Gradcracker beyond Arcadis and the
+Faithful+Gould pair above — the RICS Recruit search returned the same eight
+postings already tracked (Brandon James ×2, EC Property Recruitment,
+Carriera Recruitment ×2, HD Surveyors, Turner Property Recruitment ×2), no
+change.
 
 ## Deadline changes on existing entries
 
-None. Turner & Townsend (2026-11-13), Fast Stream (2026-11-05 estimate), and
-all other tracked deadlines are unchanged from this morning's run.
+None. Turner & Townsend (17 Sept–13 Nov 2026 window), AtkinsRéalis (closed,
+reopening Autumn 2026), Frankham (Assistant Building Surveyor still live),
+CBRE (still no published 2027 deadline), and Fast Stream (still only an
+~Oct-open/5-Nov-close estimate) all reconfirmed unchanged this run — brief
+reconfirmation notes added to each entry.
 
 ## Excluded this run
 
-- **Southwark Cathedral — "Engagment Co-ordinator"** (CharityJob 1063784).
-  Otherwise a plausible Track 2 fit, but the listing is confirmed closed —
-  not added.
-- A handful of other Track 2 search hits (Southwark Cathedral Audience
-  Development Coordinator via Arts Jobs, various council culture/heritage
-  manager posts at Hackney and City of London, a Public Experience Producer
-  role at SS Great Britain) surfaced only as generic search snippets without
-  a confirmed direct listing, deadline, or enough detail to evaluate against
-  the fit rules this run. Not added; worth a closer look on a future run if
-  they resurface with more detail.
+- Southwark Cathedral, various council culture/heritage manager posts, and a
+  Public Experience Producer role at SS Great Britain (carried over from
+  last run's notes) — not re-searched in depth this run, no new information.
+- A handful of other search hits for "Senior Building Surveyor — Conservation
+  and Heritage" (Faithful+Gould/SNC-Lavalin) surfaced but weren't added
+  separately — titled "Senior", clearly above graduate/assistant level and
+  likely 5+ years, judged a clear hard-exclude rather than a flag-worthy
+  borderline case (distinct from the two Assistant/Building Surveyor listings
+  above, which are included and flagged).
 
 ## Source notes / parsing issues
 
-- **Network egress policy**: `WebFetch` to `ricsrecruit.com`,
-  `charityjob.co.uk`, `civil-service-careers.gov.uk`, and this run also
-  `frankham.com` all returned `EGRESS_BLOCKED`. Same restriction as this
-  morning's run, now confirmed persistent rather than a one-off blip.
-  Everything sourced from these domains this run is from `WebSearch` result
-  summaries only, not verified full-page fetches.
-- **CBRE UK careers page**: still no 2027 deadline confirmed; page itself
-  remains unverified via direct fetch (blocked, same as prior two runs).
-- **Civil Service Fast Stream**: one search hit referenced a Fast Stream
-  cohort opening 9 October — consistent with the currently tracked ~Oct
-  open / 5 Nov 2026 close estimate, but not an official 2027-cohort
-  confirmation. No change made.
+- **Network egress policy**: direct `WebFetch` to `gradcracker.com`,
+  `ricsrecruit.com`, `charityjob.co.uk`, `civil-service-careers.gov.uk`,
+  `careers.fgould.com`, and `careers.atkinsglobal.com` all returned
+  `EGRESS_BLOCKED` again this run — persistent across every run so far.
+  Everything sourced from these domains is from `WebSearch` result summaries
+  only, not verified full-page fetches. This is why several new entries this
+  week carry deadline/start-date flags rather than confirmed dates.
+- **CBRE UK careers page**: still no 2027 deadline confirmed via search;
+  page itself remains unverified via direct fetch.
+- **Civil Service Fast Stream**: no new information beyond the existing
+  ~Oct-open/5-Nov-close estimate; official 2027 dates still not found.
 - **CultureJobs / Arts Council-adjacent boards**: as in prior runs, this
   continues to resolve mostly back into CharityJob's arts/culture/heritage
-  filter rather than a distinct indexable board.
-- **Bevis Marks Synagogue Heritage Foundation** listing (from this morning's
-  run): currency still unconfirmed — direct fetch still blocked. Flag
-  carried over unchanged.
+  filter and general job aggregators (LinkedIn, Indeed) rather than a
+  distinct indexable board.
 
 ## Dashboard
 
-Updated the same static, read-only dashboard snapshot published this
-morning (Artifact tool, same URL — reused via `tracker.json`'s
-`dashboard_url` field), regenerated from this run's `tracker.json` to
-include the new SPAB entry.
+Regenerated the static, read-only dashboard from this run's `tracker.json`
+(28 entries) and republished to the same URL via `tracker.json`'s
+`dashboard_url` field.
 
 **Dashboard:** https://claude.ai/code/artifact/fad5e6b1-cff1-4497-a113-7ea44d030f9a
 
 ## Fit rules
 
-No changes to fit rules this run (last updated 2026-08-07, see README.md).
+No changes to fit rules this run (last updated 2026-08-08, see README.md).

@@ -9,7 +9,7 @@
       "status": "not_started",
       "deadline": "2026-11-13",
       "link": "https://www.turnerandtownsend.com/join-us/early-careers/uk-graduate-development-programme/",
-      "notes": "2027 cohort opens 17 Sept 2026. Includes a building surveying pathway. Confirmed 2026-08-07: applications open 17 Sept, close 13 Nov 2026; online assessments Sept-Nov; assessment centres Nov 2026-Mar 2027. Reconfirmed 2026-08-08: dates unchanged."
+      "notes": "2027 cohort opens 17 Sept 2026. Includes a building surveying pathway. Confirmed 2026-08-07: applications open 17 Sept, close 13 Nov 2026; online assessments Sept-Nov; assessment centres Nov 2026-Mar 2027. Reconfirmed 2026-08-08: dates unchanged. Reconfirmed 2026-08-10: still 17 Sept-13 Nov 2026 window, no change."
     },
     {
       "id": "seed-2",
@@ -19,7 +19,7 @@
       "status": "researching",
       "deadline": "",
       "link": "https://careers.atkinsrealis.com/uk-early-careers",
-      "notes": "Rolling recruitment on their Early Careers site, worth checking live status directly. Confirmed 2026-08-07: graduate schemes/placements/apprenticeships currently closed, reopening Autumn 2026. Reconfirmed 2026-08-08: still closed, no change."
+      "notes": "Rolling recruitment on their Early Careers site, worth checking live status directly. Confirmed 2026-08-07: graduate schemes/placements/apprenticeships currently closed, reopening Autumn 2026. Reconfirmed 2026-08-08: still closed, no change. Reconfirmed 2026-08-10: still closed, reopening Autumn 2026, no change."
     },
     {
       "id": "seed-3",
@@ -49,7 +49,7 @@
       "status": "applied",
       "deadline": "",
       "link": "https://www.frankham.com/jobs/assistant-building-surveyor/",
-      "notes": "Condition surveys, measured surveys, party wall and dilapidations. APC support in benefits. Tailored CV and cover letter sent. Role still listed live as of 2026-08-07. Reconfirmed 2026-08-08: still listed live, no change to application status."
+      "notes": "Condition surveys, measured surveys, party wall and dilapidations. APC support in benefits. Tailored CV and cover letter sent. Role still listed live as of 2026-08-07. Reconfirmed 2026-08-08: still listed live, no change to application status. Reconfirmed 2026-08-10: still listed live, no change."
     },
     {
       "id": "seed-6",
@@ -230,6 +230,56 @@
       "deadline": "2026-08-19",
       "link": "https://www.theheritagealliance.org.uk/blog/the-society-for-the-protection-of-ancient-buildings-learning-programmes-manager",
       "notes": "Found via search 2026-08-08 (same-day re-check run, ~9.5h after the last one). SPAB is the leading UK building conservation charity (founded by William Morris, 1877) - strong built-heritage fit. Role coordinates and delivers SPAB's annual Scholarship and Fellowship learning programmes, which train people in traditional building conservation craft skills. Salary £36,000-£40,000, location flexible. Deadline very soon: 19 Aug 2026 (11 days out). FLAGGED - UNCERTAIN FIT, tension with the 2026-08-08 building-focus narrowing: this is programme coordination/delivery, not hands-on surveying/conservation work itself, so it's borderline against the new Track 2 rule even though SPAB as an organisation is squarely building-conservation-focused (unlike Bevis Marks/Thames21 above). Kept as not_started rather than auto-deprioritised given SPAB's direct relevance - worth a judgment call before applying, especially with an 11-day deadline. Also unconfirmed: full-time status and start-date flexibility (needs to check against the Aug/Sept 2027 start rule), and the exact application link (page above is a Heritage Alliance write-up, not necessarily SPAB's own posting - verify on spab.org.uk or charityjob.co.uk directly). charityjob.co.uk and spab.org.uk direct fetches blocked by network egress policy this run."
+    },
+    {
+      "id": "e-20260810-01",
+      "name": "Assistant Building Surveyor (Heritage and Conservation)",
+      "employer": "Faithful+Gould",
+      "track": "2",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://careers.fgould.com/job/assistant-building-surveyor-heritage-and-conservation--jobid-fg-004106",
+      "notes": "Found via search 2026-08-10. Faithful+Gould (part of the AtkinsRéalis group), London heritage building surveying team specialising in architecturally/historically important heritage assets. Assistant-level, BSc (Hons) in Building Surveying or RICS-accredited equivalent expected; a qualification/background in archaeology, conservation, historic environment or architectural history, and IHBC membership, called out as beneficial. Strong Track 2 fit - hands-on heritage building surveying, not community/programme work. FLAGGED - UNCERTAIN: deadline, start date and salary not confirmed - careers.fgould.com direct fetch blocked by network egress policy this run; sourced from search snippets only. Worth checking directly given the strong fit."
+    },
+    {
+      "id": "e-20260810-02",
+      "name": "Building Surveyor (Heritage and Conservation)",
+      "employer": "Faithful+Gould",
+      "track": "2",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://careers.atkinsglobal.com/job/building-surveyor-heritage-and-conservation--jobid-fg-004570",
+      "notes": "Found via search 2026-08-10. Same London heritage building surveying team as the Assistant-level posting above (e-20260810-01), but a distinct non-'Assistant' listing calling for 'proven ability and specialism' with heritage assets - may expect more experience than an entry-level hire. FLAGGED - UNCERTAIN: exact experience threshold not confirmed (nothing explicitly states 5+ years, so not hard-excluded, but likely wants more than zero experience); deadline and start date also unconfirmed - careers.atkinsglobal.com direct fetch blocked by network egress policy this run. Included rather than dropped per the flag-don't-drop rule; worth a direct enquiry."
+    },
+    {
+      "id": "e-20260810-03",
+      "name": "Graduate Building Surveyor",
+      "employer": "Arcadis",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://jobs.arcadis.com/careers/job/563671516714001-graduate-building-surveyor-london-greater-london-united-kingdom?domain=arcadis.com",
+      "notes": "Found via search 2026-08-10. London. Part of Arcadis's 3-year GROW graduate programme. Arcadis's general 2027-cohort 'register your interest' pages mention a 31 Aug 2026 deadline and note candidates should be graduating 2026 or recently graduated with a 2:2+ - unconfirmed whether this specific Building Surveyor listing carries the same wording (which could imply an already-completed degree, a hard exclude) or a later-start variant. FLAGGED - UNCERTAIN: deadline, exact start date, and completed-degree requirement not confirmed for this specific role - jobs.arcadis.com and gradcracker.com direct fetches blocked by network egress policy this run. Check directly against the completed-degree and Aug/Sept 2027 start hard excludes before applying."
+    },
+    {
+      "id": "e-20260810-04",
+      "name": "Proud Places Project Officer",
+      "employer": "Heritage of London Trust",
+      "track": "2",
+      "status": "deprioritised",
+      "deadline": "",
+      "link": "https://uk.linkedin.com/jobs/view/proud-places-project-officer-heritage-of-london-trust-at-guardian-jobs-3728126691",
+      "notes": "Found via search 2026-08-10. HOLT's Proud Places programme brings young people (schools, youth groups, young refugees) into contact with London heritage-building restoration projects via craft-skills workshops and site visits. Deprioritised 2026-08-10: this is youth/community engagement and education programming, not hands-on historic-building-fabric work, so it fails the 2026-08-08 Track 2 building-focus rule despite HOLT's genuinely building-restoration-focused mission - same pattern as the existing Bevis Marks and Thames21 exclusions."
+    },
+    {
+      "id": "e-20260810-05",
+      "name": "Head of Projects",
+      "employer": "Heritage of London Trust",
+      "track": "2",
+      "status": "deprioritised",
+      "deadline": "",
+      "link": "https://www.charityjob.co.uk/jobs/heritage-of-london-trust-ltd/head-of-projects/1014636",
+      "notes": "Found via search 2026-08-10. Senior role overseeing HOLT's full portfolio of London building-restoration projects end-to-end - genuinely building-fabric-adjacent in substance, but framed for 'an experienced and proactive project manager', i.e. a leadership hire, not an entry-level or graduate-appropriate role. Deprioritised 2026-08-10: not a fit for an MSc student's first building-surveying/heritage role. No explicit years-of-experience figure stated, so not a firm hard-exclude match, but the seniority framing rules it out in practice - reconsider only if a more junior HOLT opening surfaces."
     }
   ]
 }
