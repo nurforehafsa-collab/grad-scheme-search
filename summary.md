@@ -1,109 +1,92 @@
-# Weekly summary — week of 2026-08-17
+# Weekly summary — week of 2026-08-24
 
-## New postings found (6)
+## New postings found
 
-**Track 1 — Building Surveying**
-
-- **Graduate Building Surveyor — Brandon James** (ref 249356 and ref 252475,
-  London). Two further RICS Recruit listings from Brandon James beyond the
-  two already tracked (253194, 253362) — same generic template ad (commercial
-  /residential/retail/heritage/public sector exposure, APC support,
-  £28k-£35k), almost certainly the same standing vacancy reposted under
-  multiple job refs (a known agency pattern), not four distinct roles.
-  FLAGGED: standard graduate-agency ad, likely assumes a completed degree —
-  worth a direct enquiry about part-qualified/currently-studying candidates.
-
-**Track 2 — Heritage Building Conservation**
-
-- **Building Surveyor - Heritage Building — London Borough of Hackney.**
-  Council role explicitly seeking Heritage/Listed building surveying
-  experience, condition surveys of listed council property. Strong,
-  genuinely hands-on Track 2 fit. FLAGGED: salary/seniority for this specific
-  role unconfirmed — a separate (non-heritage) Hackney Building Surveyor
-  listing pays £61,836-£62,922, a senior/chartered band, so this one may
-  expect more than a graduate hire. Worth a direct enquiry.
-- **Boundary Wall Surveyor — The Royal Parks.** Leads inspection/repair of
-  ~17.5km of listed and historic brick boundary walls across Richmond Park,
-  Bushy Park, Greenwich Park, Brompton Cemetery and Primrose Hill. £46k-£52k,
-  full-time, 2-year fixed-term contract. Genuinely hands-on historic-structure
-  work — fits the building/structure-focus rule. FLAGGED: salary and 2-year
-  FTC framing suggest a more experienced hire, and a fixed-term contract
-  starting now may not accommodate an Aug/Sept 2027 start — start date not
-  explicitly confirmed, so flagged rather than dropped.
-
-**Added as deprioritised (audit trail, not actionable)**
-
-- **Senior Surveyor — The Royal Parks.** £59k-£65k, team-supervision framing.
-  Strong subject-matter fit (conservation of historic parks structures) but
-  salary/seniority puts it well above entry level — treated as an effective
-  5+ years hard-exclude despite no explicit years figure stated.
-- **Historic Building Surveyor — HCUK Group.** Homeworking, strong
-  subject-matter fit, but listed at "Associate Director level" requiring
-  MRICS accreditation already held — a firm completed-qualification
-  hard-exclude.
+None added this run. Track 1 and Track 2 sources this week largely resurfaced
+postings already tracked from prior weeks (Turner & Townsend, AtkinsRéalis,
+CBRE, Frankham, the various RICS Recruit agency listings, Faithful+Gould,
+Hackney, Royal Parks, HCUK). Two candidates were considered and excluded —
+see "Excluded this run" below.
 
 ## Deadline / status changes on existing entries
 
-- **Graduate Building Surveyor — Arcadis (e-20260810-03): moved to
-  deprioritised.** Last week this was flagged uncertain pending confirmation
-  of the degree-completion requirement. This run's search (Bright
-  Network/Prosple summaries for this exact listing) confirms the role
-  explicitly targets candidates "graduating in 2025 or recently graduated" —
-  an already-graduated/immediate-start hire, incompatible with both the
-  completed-degree exclude and the Aug/Sept 2027 start-date rule. Left in
-  the tracker for audit trail rather than deleted.
-- **SPAB Learning Programmes Manager (e-20260808-08): deadline now imminent**
-  — 19 Aug 2026 is 2 days away. Still could not reconfirm details via direct
-  fetch (theheritagealliance.org.uk, spab.org.uk, charityjob.co.uk all
-  blocked again this run) — check spab.org.uk directly and soon if
-  considering applying.
-- Turner & Townsend, AtkinsRéalis, CBRE, Frankham, and Fast Stream all
-  reconfirmed unchanged this run — brief reconfirmation notes added to each.
-  Faithful+Gould (both listings) also reconfirmed unchanged; deadline/start
-  date/salary still unconfirmed due to persistent egress blocks.
+**Deadlines confirmed and updated:**
+
+- **Graduate Building Surveyor - London — Turner Property Recruitment
+  (e-20260807-03).** Closing date confirmed as **4 Sep 2026** via search
+  summary (still open). Deadline field updated from blank to 2026-09-04.
+- **Graduate Building Surveyor - London — EC Property Recruitment
+  (e-20260808-03): deadline confirmed and now passed, moved to
+  deprioritised.** Closing date confirmed as 23 Aug 2026 — one day before
+  this run, so no longer actionable. Deadline field updated for the record.
+- **Building Surveyor - Heritage Building — London Borough of Hackney
+  (e-20260817-03): moved to deprioritised.** Salary confirmed via search
+  summary as £63,816–£64,938, explicitly described as a "Chartered Surveyor
+  level" post, closing 1 Sep 2026. A chartered-level salary band effectively
+  implies an already-completed RICS qualification — matches the
+  completed-qualification hard-exclude despite no explicit years figure
+  stated, same pattern as the existing HCUK and Royal Parks Senior Surveyor
+  exclusions. Genuinely strong subject-matter fit, so left in the tracker
+  as deprioritised rather than deleted — re-check if Hackney opens a more
+  junior/assistant-level heritage role.
+- **SPAB Learning Programmes Manager (e-20260808-08): moved to
+  deprioritised.** Deadline (9am, 19 Aug 2026) confirmed via search summary
+  and has now passed — round 1 interviews were scheduled for 8 Sep 2026 at
+  SPAB HQ, implying the window has closed. If Hafsa already applied before
+  the deadline, her status should be updated manually; this run found no
+  evidence either way.
+
+**Reconfirmed, no change:** Turner & Townsend, AtkinsRéalis, CBRE, Frankham,
+Fast Stream, Brandon James (both existing London listings), Turner Property
+Recruitment - London, Faithful+Gould (both listings), Royal Parks Boundary
+Wall Surveyor (salary/contract type reconfirmed, deadline still unconfirmed),
+HCUK Historic Building Surveyor.
 
 ## Excluded this run
 
-- **Senior Building Surveyor - Conservation and Heritage Specialism**
-  (SNC-Lavalin/Atkins/Faithful+Gould group). Explicitly "Senior" — clear
-  hard-exclude, not added, distinct from the tracked Assistant/mid-level
-  Faithful+Gould pair.
-- Several other "Senior Building Surveyor" listings (Royal Household /
-  Buckingham Palace, HD Surveyors) surfaced in the Track 2 heritage search —
-  not added, clear seniority hard-excludes.
-- Turner & Townsend "Graduate Programme 2026 - Building Surveying" listings
-  (London/North/Southampton/Scotland, on SmartRecruiters/Gradcracker/
-  Breakroom) — a distinct, earlier (2026) cohort from the tracked 2027
-  cohort (seed-1); an earlier 2026 start would fail the Aug/Sept 2027
-  start-date rule, so not added as a separate entry.
-- AtkinsRéalis "Building Surveying Placement Scheme 2026" (Birmingham) — an
-  undergraduate industrial placement, not a graduate scheme; immediate/
-  earlier start and non-commutable location, not relevant to Hafsa's search.
+- **Boundary Wall Surveyor — The Royal Parks (e-20260817-04): flag stands,
+  not deprioritised.** Nothing new confirms or rules out the start-date
+  concern raised last week (a 2-year FTC starting now may not accommodate an
+  Aug/Sept 2027 start) — deadline still unconfirmed, so left flagged rather
+  than dropped per the flag-don't-drop rule.
+- **Graduate Building Surveyors - Full Training & APC Support — Latymer
+  Search** (ricsrecruit.com job 255706). Closing date 9 Aug 2026 — already
+  passed by the time this run found it. Not added; would have been a
+  reasonable Track 1 fit (full training + APC support, London/home counties)
+  otherwise.
+- **Brandon James "Graduate Building Surveyor" (job ref 250611).** A fifth
+  RICS Recruit listing from Brandon James, in addition to the four already
+  tracked (253194, 253362, 249356, 252475). Same generic template ad —
+  almost certainly the same standing vacancy reposted under yet another job
+  ref, a known agency pattern. Not added as a separate row to avoid further
+  duplicate clutter; noted on the existing e-20260808-01 entry instead.
 
 ## Source notes / parsing issues
 
 - **Network egress policy**: direct `WebFetch` to `ricsrecruit.com`,
-  `charityjob.co.uk`, `gradcracker.com`, `careers.atkinsrealis.com`,
-  `careers.fgould.com`, `jobs.smartrecruiters.com`, and
-  `theheritagealliance.org.uk` all returned `EGRESS_BLOCKED` again this run
-  — persistent across every run so far. Everything sourced from these
-  domains is from `WebSearch` result summaries only, not verified full-page
-  fetches. This is why several entries (including this week's new ones)
-  carry deadline/start-date/salary flags rather than confirmed figures.
+  `charityjob.co.uk`, `careers.atkinsrealis.com`, `careers.fgould.com`,
+  `careers.atkinsglobal.com`, `turnerandtownsend.com`, and
+  `civil-service-careers.gov.uk` all returned `EGRESS_BLOCKED` again this
+  run — persistent across every run so far. Everything from these domains is
+  sourced from `WebSearch` result summaries only, not verified full-page
+  fetches, including this week's deadline confirmations above.
 - **CultureJobs / Arts Council-adjacent boards**: as in prior runs, this
   continues to resolve mostly back into CharityJob's arts/culture/heritage
-  filter and general job aggregators (LinkedIn, Indeed, CABE Jobs) rather
-  than a distinct indexable board.
-- **CABE Jobs** (cabejobs.co.uk) surfaced organically this run with ~62
-  heritage building surveyor listings — not one of the README's named
-  sources, so not deep-dived this week, but may be worth adding to the
-  source list if it keeps recurring.
+  filter and general job aggregators rather than a distinct indexable board.
+  No new building-focused (as opposed to community/events) Track 2 postings
+  surfaced there this week.
+- **CharityJob** searches for heritage building surveyor / historic building
+  conservation officer terms mostly surfaced generic "heritage jobs" and
+  "conservation jobs" category pages rather than fresh individual postings
+  beyond what's already tracked or previously excluded (e.g. Royal Parks
+  Conservation Officer — wildlife/biodiversity conservation, not
+  building-fabric, so out of scope for Track 2).
 
 ## Dashboard
 
 Regenerated the static, read-only dashboard from this run's `tracker.json`
-(34 entries) and republished to the same URL via `tracker.json`'s
-`dashboard_url` field.
+(34 entries, no new entries, 4 status/deadline changes) and republished to
+the same URL via `tracker.json`'s `dashboard_url` field.
 
 **Dashboard:** https://claude.ai/code/artifact/fad5e6b1-cff1-4497-a113-7ea44d030f9a
 
