@@ -1,81 +1,92 @@
-# Weekly summary — week of 2026-09-07
+# Weekly summary — week of 2026-09-14
 
 ## New postings found
 
-**None added this week.** Sources returned mostly postings already tracked
-from prior weeks (Turner & Townsend, AtkinsRéalis, CBRE, Frankham, Brandon
-James / Carriera / HD Surveyors / EC Property Recruitment RICS Recruit
-listings, Faithful+Gould heritage listings, Fast Stream, Janus Conservation)
-with no material change, plus a handful of new-but-excluded finds (see
-below).
+Two new entries added this week:
+
+- **Building Surveying Graduate - London (September 2027 Start)** — employer
+  unconfirmed (JLL per the most specific source, but some search summaries
+  associated the same listing with CBRE). Track 1. **Worth checking first**:
+  the stated start date (September 2027) matches Hafsa's MSc-completion
+  timeline almost exactly, which is rare among Track 1 finds. Deadline,
+  exact employer and degree requirement all unconfirmed — direct fetch of
+  targetjobs.co.uk and its JobTeaser mirror was blocked this run.
+- **Graduate/SAVA Student - Trainee Building Surveyor (South West London)**
+  — Latymer Search, via RICS Recruit (ref 256751). Track 1, hybrid 2-3
+  office days/week, South West London (commutable). Deadline, start date and
+  completed-degree requirement unconfirmed — flagged rather than dropped.
 
 ## Deadline / status changes on existing entries
 
-- **Graduate Building Surveyor - London — Turner Property Recruitment
-  (e-20260807-03).** Deadline was 4 Sep 2026 — **now passed** as of this
-  run (7 Sep 2026). Status moved from `not_started` to **deprioritised**;
-  no longer actionable. Left in tracker for audit trail.
-
-No other deadline or status changes this run.
+- **Boundary Wall Surveyor — The Royal Parks (e-20260817-04).** Deadline
+  finally confirmed after being unconfirmed across three prior runs:
+  **24 September 2026 — only 10 days away.** Salary snippet this run shows
+  £43,995-£50,000/yr (previously £46,000-£52,000; treat both as indicative,
+  not confirmed). Still flagged uncertain-fit (2-year FTC, start date not
+  explicitly stated), but the imminent closing date plus the fixed-term
+  framing make a near-term start more likely in practice — **if this one is
+  of interest, worth a direct enquiry before 24 Sept rather than waiting for
+  next week's run.**
+- **Civil Service Fast Stream 2027 Intake (seed-4, deprioritised).** New
+  detail: search snippets this run point to an application window opening
+  **9 October 2026**, consistent with the previously tracked ~Nov 2026 close
+  estimate. Still deprioritised (policy route, not building-focused) — no
+  status change.
+- No other deadline changes. All previously-tracked live entries (Turner &
+  Townsend, AtkinsRéalis, CBRE, Frankham, Brandon James x4, Carriera x2, HD
+  Surveyors, Faithful+Gould x2, Janus Conservation) were rechecked and
+  reconfirmed with no material change — see individual entry notes in
+  `tracker.json` for this run's reconfirmation detail.
+- **Janus Conservation "Graduate Conservation Surveyor" (deprioritised).**
+  Deadline unchanged at 18 Sept 2026 (4 days away) — still deprioritised on
+  the existing Summer-2026-start grounds, no new information on start-date
+  flexibility this run.
+- **Graduate Building Surveyor - London, Turner Property Recruitment
+  (e-20260807-03, deprioritised).** The same job ref (256392) resurfaced in
+  this week's RICS Recruit search results. Judged as stale search-index
+  caching of the already-closed listing rather than a genuine reopening (no
+  new deadline found) — left deprioritised per the never-revert-status rule.
 
 ## Excluded this run
 
-- **Colliers International — London Graduate Building Surveyor (2026
-  Intake).** New find, Track 1. Explicitly a **September 2026 start** —
-  fails the Aug/Sept 2027 start-date hard exclude outright (this is an
-  immediate/current-year cohort, not a 2027 one). Not added. Note: Colliers
-  also has a separate "London Building Surveying Graduate Programme"
-  listing (job id 2447) with no intake year in the title — undated/rolling
-  variant not checked in detail this run; worth a look next week in case it
-  targets a later cohort.
-- **The Victorian Society — Conservation Adviser.** Track 2, genuinely
-  building-conservation-focused (advises on secular Victorian/Edwardian
-  buildings), London-based. The only listing found (via Heritage Alliance
-  write-up and a cached PDF) carries a **25 November** closing date with no
-  year — cross-referencing the job description PDF timestamp, this appears
-  to be the 2024 posting, not a live 2026 vacancy. Not added: could not
-  confirm this is currently open. Worth rechecking directly on
-  victoriansociety.org.uk/tag/job-vacancy/ next week.
-- **Church Buildings Officer / Church Buildings Support Officer roles**
-  (various dioceses, via CharityJob/Pathways/IHBC). Fails the Track 2
-  building-focus rule as it's currently defined in practice at these
-  postings — role is DAC/faculty-process advice, permissions administration
-  and community/parish support, not hands-on surveying or condition
-  assessment of the fabric itself. Not added.
-- **IHBC "Jobs etc." Conservation Officer listings** (War Memorials Trust,
-  Stratford-on-Avon District Council, one unspecified London posting).
-  Local-authority/charity conservation-officer roles are planning- and
-  policy-facing (listed building consent casework, DAC-style advice), not
-  building-surveying/condition-assessment roles — same pattern as the
-  already-deprioritised Fast Stream exclusion. Not added; location and
-  seniority also unconfirmed for the London one.
-- **Historic England — Architect/Surveyor (fixed-term to 31 Mar 2027).**
-  Surfaced again via search but the listing itself now shows as no longer
-  available/closed. Not added.
+- **St Peter's Walworth "Building Beyond: Soane Reimagined" — Freelance
+  Communications Consultant.** The only concrete role surfaced for this
+  heritage restoration project; a comms/freelance role, not building-fabric
+  work. Not added.
+- **Faithful+Gould Senior Building Surveyor - Heritage/Conservation
+  Specialism (jid-27060), same employer group as the tracked Assistant/mid
+  pair.** Senior title, likely 5+ years — same reasoning as the previously
+  excluded senior listing at this employer. Not added.
+- **Derbyshire County Council — Building Conservation Officer.** Genuinely
+  building-focused Track 2 role but non-London/non-commutable. Not added.
 
 ## Source notes / parsing issues
 
-- **Network egress policy**: direct `WebFetch` to `careers.colliers.com`
-  returned `EGRESS_BLOCKED` this run (tested directly), consistent with
-  every prior run's experience on `ricsrecruit.com`, `turnerandtownsend.com`,
-  `careers.atkinsrealis.com`, `cbre.co.uk`, `careers.fgould.com`, and
-  `janus-conservation.co.uk`. All detail above and in `tracker.json` is
-  sourced from `WebSearch` result summaries only, not verified full-page
-  fetches — treat deadlines/start dates sourced this way as indicative,
-  not confirmed.
-- **CharityJob / CultureJobs / Arts Council-adjacent boards**: as in prior
-  runs, searches resolve mostly into generic "heritage jobs" category pages
-  and cross-posted aggregator listings (Indeed, LinkedIn, TotalJobs) rather
-  than a distinct indexable heritage-building-conservation board. No new
-  building-focused (as opposed to community/policy/events) Track 2 postings
-  surfaced there this week beyond the excluded items above.
+- **Network egress policy**: direct `WebFetch` was blocked again this run
+  for every individual listing page tried (turnerandtownsend.com,
+  careers.atkinsrealis.com, ricsrecruit.com, targetjobs.co.uk, cbre.co.uk,
+  careers.fgould.com, janus-conservation.co.uk, civil-service-careers.gov.uk,
+  charityjob.co.uk, gradcracker.com). All detail above and in `tracker.json`
+  is sourced from `WebSearch` result summaries only — treat unconfirmed
+  deadlines/start dates/employers as indicative, not verified.
+- **Gradcracker**: search confirms a large active pool (152 building
+  surveying listings nationally, 68 filtered to London & South East) that
+  could not be individually enumerated this run due to the fetch block —
+  worth a closer manual pass at some point, this is likely the least
+  fully-explored source given its scale.
+- **CharityJob / CultureJobs**: category pages exist (19 "conservation" +
+  104 "heritage" London/overall listings on CharityJob; dedicated heritage
+  and conservation category pages on culturejobs.org) but individual
+  postings could not be enumerated — no new building-focused Track 2 titles
+  confirmed from either source this run, though this is not a confirmed
+  absence given the fetch block.
 - No page-structure changes noticed on any source this run.
 
 ## Dashboard
 
 Regenerated the static, read-only dashboard from this run's `tracker.json`
-(35 entries: 0 new, 1 status change — Turner Property Recruitment London
-deadline passed) and republished to the same URL via `tracker.json`'s
+(37 entries: 2 new, 1 deadline newly confirmed and now urgent — Royal Parks
+Boundary Wall Surveyor) and republished to the same URL via `tracker.json`'s
 `dashboard_url` field.
 
 **Dashboard:** https://claude.ai/code/artifact/fad5e6b1-cff1-4497-a113-7ea44d030f9a
