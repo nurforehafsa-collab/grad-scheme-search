@@ -89,6 +89,9 @@ at a heritage site, even a historic one, don't qualify on their own.
 - Frankham careers page
 - Gradcracker (gradcracker.com) — added 2026-08-08, UK STEM/built-environment graduate jobs board; filter to building surveying / construction / built environment
 - RICS Recruit (ricsrecruit.com) — building surveying, graduate/trainee level
+- LinkedIn Jobs (linkedin.com/jobs) — added 2026-09-14, public search results only
+  (no login), filtered to graduate/trainee building surveying roles with an
+  Aug/Sept 2027 (or 2027-cohort) start date
 
 **Track 2** (search terms narrowed 2026-08-08 to match the building-focused
 redefinition above)
@@ -103,6 +106,9 @@ redefinition above)
   Kept tracked since it was an original named target, but flagged as tension
   against the 2026-08-08 building-focus narrowing: Fast Stream is a policy
   route (e.g. DCMS), not hands-on historic-building work.
+- LinkedIn Jobs (linkedin.com/jobs) — added 2026-09-14, public search results
+  only (no login), filtered to heritage building surveyor / historic building
+  conservation roles, London, with an Aug/Sept 2027 (or 2027-cohort) start date
 
 ## Known limitations
 

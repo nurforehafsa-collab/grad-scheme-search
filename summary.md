@@ -1,3 +1,12 @@
+# Manual update — 2026-09-14
+
+- Added LinkedIn Jobs (public search, no login) as a source for both Track 1
+  and Track 2, filtered to roles with an Aug/Sept 2027 (or 2027-cohort) start
+  date — see README.md and run_prompt.txt.
+- Added a new tracker entry for **Graduate Building Surveyor — JLL**
+  (`e-20260914-01`, Track 1, status `applied`) — Hafsa applied directly;
+  link/deadline not provided, fill in manually if available.
+
 # Weekly summary — week of 2026-08-24
 
 ## New postings found
