@@ -1,3 +1,43 @@
+# Test run addendum — 2026-09-14 (manual force run)
+
+Run manually on request ("run this as a test force run"), on a working
+branch that had fallen behind `main` by three real scheduled runs
+(2026-08-31, 2026-09-07, 2026-09-14 — the "week of 2026-09-14" report right
+below is that real run, already committed to `main`). Merged `main` in
+first so this doesn't fork or duplicate that history, then added:
+
+- **LinkedIn Jobs** as a checked source (public search, no login) for both
+  tracks, filtered to Aug/Sept 2027 (or 2027-cohort) start dates — see
+  README.md and run_prompt.txt. Not yet reflected in the "week of
+  2026-09-14" search below, since that run predates the source addition.
+- **JLL entry reconciled** (`e-20260914-01`): the "week of 2026-09-14" run
+  below found this JLL/CBRE-attribution-unconfirmed listing but couldn't
+  resolve the employer. This run confirmed it's JLL (targetjobs.co.uk and
+  its JobTeaser mirror both independently attribute it to JLL, no genuine
+  CBRE evidence) and matched it to the role Hafsa has already applied to
+  directly — status updated to `applied`, deadline confirmed as **17 Nov
+  2026, 5pm** (may be extended).
+- **Two new Track 1 entries** found via LinkedIn-seeded search, both
+  2027-cohort graduate schemes:
+  - **Assistant Surveyor - 2027 Building Consultancy Graduate Programme —
+    Newmark** (`e-20260914-03`). London (West End) or Birmingham, 2-year
+    programme, cognate APC route to MRICS. Deadline and completed-degree
+    requirement unconfirmed; nmrk.com direct fetch blocked.
+  - **Graduate Building Surveyor (Canary Wharf, 2027) — BTG Eddisons**
+    (`e-20260914-04`). London, 2-year programme to Chartered Building
+    Surveyor status, APC support. Exact 2027/Canary Wharf deadline
+    unconfirmed; eddisons.com direct fetch blocked.
+
+No other changes made this run — everything else (deadline reconfirmations,
+exclusions, source notes) below is from the real 2026-09-14 scheduled run
+on `main`, left as-is.
+
+**Dashboard:** regenerated from the merged + reconciled `tracker.json` (39
+entries total) and republished to the same URL via `tracker.json`'s
+`dashboard_url` field.
+
+---
+
 # Weekly summary — week of 2026-09-14
 
 ## New postings found

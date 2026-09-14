@@ -354,12 +354,12 @@
     {
       "id": "e-20260914-01",
       "name": "Building Surveying Graduate - London (September 2027 Start)",
-      "employer": "JLL (attribution unconfirmed - see notes)",
+      "employer": "JLL",
       "track": "1",
-      "status": "not_started",
-      "deadline": "",
+      "status": "applied",
+      "deadline": "2026-11-17",
       "link": "https://targetjobs.co.uk/jobs/building-surveying-graduate-london-september-2027-start-239439",
-      "notes": "Found via search 2026-09-14. Strong potential fit on paper: the listing title explicitly states a September 2027 start, which lines up almost exactly with the end of Hafsa's part-time MSc (Aug 2027). FLAGGED - UNCERTAIN: search results conflicted on the actual employer - some summaries associated this listing with CBRE (surfaced while rechecking the CBRE UK Graduate Programme entry, seed-3), while a JobTeaser mirror explicitly attributes it to JLL. targetjobs.co.uk and the JobTeaser mirror both direct-fetch-blocked by network egress policy this run, so the employer could not be confirmed directly - tracked under JLL per the more specific mirror citation, but verify manually before treating as either company's programme. Deadline and completed-degree requirement also unconfirmed. Worth checking directly given how well the stated start date matches the target timeline."
+      "notes": "Found via search 2026-09-14 (attribution originally unconfirmed - see history below). CONFIRMED 2026-09-14 (test run): this is JLL's own 'Building Surveying Graduate - London (September 2027 Start)' role - both targetjobs.co.uk and its JobTeaser mirror independently attribute it to JLL, no genuine CBRE evidence found (the earlier CBRE association looks like a search-snippet mixup while rechecking the separate CBRE UK Graduate Programme entry, seed-3). Hafsa has applied to this role directly. Confirmed details: 2-3 year trainee programme working towards RICS APC/Chartered Building Surveyor status, start date 6 Sept 2027, salary c.£29,000. Closing date confirmed as Tuesday 17 Nov 2026, 5pm (may be extended) - sourced from search summaries for the equivalent Bristol/Birmingham postings under the same UK-wide 2027 cohort window; targetjobs.co.uk and jobteaser.com direct fetches blocked by network egress policy again this run. JLL is also running the identical programme in Bristol, Birmingham and Glasgow under the same window - not tracked as separate rows since it's the same graduate scheme, just multiple office locations. Original 2026-09-14 note: search results conflicted on the actual employer - some summaries associated this listing with CBRE (surfaced while rechecking the CBRE UK Graduate Programme entry, seed-3), while a JobTeaser mirror explicitly attributed it to JLL; tracked under JLL per the more specific mirror citation, pending manual verification - now resolved as above."
     },
     {
       "id": "e-20260914-02",
@@ -370,6 +370,26 @@
       "deadline": "",
       "link": "https://www.ricsrecruit.com/job/256751/",
       "notes": "Found via RICS Recruit search 2026-09-14 (job ref 256751). Hybrid working, 2-3 office days/week, South West London - commutable fit for Kingston University. FLAGGED - UNCERTAIN: completed-degree requirement, deadline and start date not confirmed - ricsrecruit.com direct fetch blocked by network egress policy this run (tried twice), sourced from search snippet only; the exact listing URL slug is also unconfirmed (used the base ricsrecruit.com/job/256751/ redirect - verify it resolves to the intended posting). Worth a direct enquiry re part-qualified/currently-studying candidates and Aug/Sept 2027 start compatibility, per the same caveat as other RICS Recruit graduate-agency listings."
+    },
+    {
+      "id": "e-20260914-03",
+      "name": "Assistant Surveyor - 2027 Building Consultancy Graduate Programme",
+      "employer": "Newmark",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://www.ziprecruiter.co.uk/jobs/591590216-assistant-surveyor-2027-building-consultancy-graduate-programme-at-newmark",
+      "notes": "Found via search 2026-09-14 (test run). 2-year graduate programme, London (West End office) or Birmingham, working towards MRICS via the 2-year cognate APC route. Building Consultancy team covers building surveying, dilapidations, schedules of condition, due diligence, project management and expert witness work - strong Track 1 fit, 2027 cohort so the London-or-Birmingham choice doesn't trigger the location exclude either way. FLAGGED - UNCERTAIN: application deadline and completed-degree requirement not confirmed - nmrk.com direct fetch blocked by network egress policy this run, sourced from ZipRecruiter/Dreamwork/JustLondonJobs listing summaries only. Worth checking nmrk.com directly."
+    },
+    {
+      "id": "e-20260914-04",
+      "name": "Graduate Building Surveyor (Canary Wharf, 2027)",
+      "employer": "BTG Eddisons",
+      "track": "1",
+      "status": "not_started",
+      "deadline": "",
+      "link": "https://www.eddisons.com/careers/vacancies/graduate-building-surveyor-canary-wharf",
+      "notes": "Found via search 2026-09-14 (test run). London (Canary Wharf), 2-year programme to Chartered Building Surveyor status with RICS, APC support, hands-on client briefing/inspections/report writing/site supervision. A Bright Network listing separately confirms a 2027-dated 'Graduate Building Surveyor - London' Eddisons posting, consistent with this being the 2027 cohort. Strong Track 1 fit - London-based 2-year graduate scheme. FLAGGED - UNCERTAIN: exact application deadline for the 2027/Canary Wharf cohort not confirmed (only a 29 Jun 2026 deadline surfaced, which looks like it belongs to a different year's/location's listing, e.g. Peterborough or Bristol) - eddisons.com direct fetch blocked by network egress policy this run. Worth checking eddisons.com directly for the exact 2027/Canary Wharf deadline."
     }
   ]
 }
