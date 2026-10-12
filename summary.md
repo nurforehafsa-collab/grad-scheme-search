@@ -1,102 +1,105 @@
-# Weekly summary — week of 2026-10-05
+# Weekly summary — week of 2026-10-12
 
 ## New postings found
 
-Two new entries added this week (tracker now at 41 entries, up from 39):
+Four new entries added this week (tracker now at 45 entries, up from 41):
 
-- **Graduate Building Surveyor — CS2 Chartered Surveyors / RSK Group
-  (e-20261005-01).** Track 1. London, full-time permanent, via recruitment
-  agency Conrad Consulting. Added as **deprioritised**: search summaries
-  indicate the role requires an already-held RICS-accredited degree *plus*
-  MRICS membership — a firm match for the completed-qualification hard
-  exclude, not a part-qualified/currently-studying route. Kept for audit
-  trail.
-- **Heritage Building Surveyor — Pick Everard (e-20261005-02).** Track 2.
-  Central London, specialist culture and heritage team working on live
-  conservation/National Trust projects — genuine hands-on historic-building
-  work (surveys, Listed Building Consent support, heritage impact
-  assessments). Strong subject-matter fit, but **FLAGGED — uncertain**:
-  wording suggests a conservation/heritage-orientated degree *with* some
-  work experience, heritage-sector experience desirable, and MRICS or
-  chartership within 3-4 years — reads more experienced than a pure
-  graduate hire, though nothing explicit states 5+ years. Deadline and
-  start date unconfirmed. Included per the flag-don't-drop rule rather than
-  dropped outright — worth a direct enquiry, but temper expectations.
+- **Graduate Building Surveying Programme — Knight Frank (e-20261012-01).**
+  Track 1. Strong fit. London (Greenwich/Westminster), 2027-cohort scheme.
+  Applications close 11:59pm **30 October 2026**. Assessment centre Dec
+  2026, start **September 2027** (qualifying Nov 2029) — lines up well with
+  Hafsa's MSc finish. Salary £30,000 + £1,500 sign-on bonus.
+- **2027 Graduate Building Surveyor — Carter Jonas (e-20261012-02).** Track
+  1. Oxford/Leeds, 3-year programme with APC support, start window
+  July-September 2027 — good fit. Location exclude doesn't apply (2027-cohort
+  scheme). **URGENT/UNCERTAIN**: search snippets this run showed a deadline
+  of **12 October 2026 — today** — but this could not be independently
+  confirmed directly (conflicting/truncated sources); flagged rather than
+  dropped since it may be a stale or mismatched date. Check Carter Jonas's
+  own site immediately if interested.
+- **Graduate Heritage Building Surveyor — Pick Everard (e-20261012-03).**
+  Track 2. Central London, explicitly "Graduate"-titled heritage role from
+  the same Pick Everard team as last week's e-20261005-02 entry, but that
+  one reads more experienced (work experience + MRICS/chartership-within-
+  3-4-years wording, and a LinkedIn posting labels a Pick Everard heritage
+  role "Mid-Senior"). This listing's "Graduate" title suggests a genuinely
+  junior variant, but its deadline/salary and whether it's a distinct live
+  vacancy (vs. an aggregator mislabeling) couldn't be confirmed. Flagged,
+  not merged or dropped.
+- **Graduate Building Surveyor, ref 85110 — Ridge and Partners
+  (e-20261012-04).** Track 1. London, deadline **31 October 2026**. Distinct
+  job ref from Ridge's other London listing (already-passed 23 Sept
+  deadline, not added) and from Ridge's confirmed 2027-cohort "Evolve"
+  programme (Newcastle only). FLAGGED — start-date compatibility with
+  Aug/Sept 2027 unconfirmed; included per flag-don't-drop rather than
+  dropped.
 
 ## Deadline / status changes on existing entries
 
-- **AtkinsRéalis Building Surveying Graduate Scheme (seed-2) — now
-  confirmed OPEN, deadline found.** Several runs of "closed, reopening
-  Autumn 2026" are resolved: the graduate building surveying scheme
-  (distinct from placements/apprenticeships, which remain closed) is
-  confirmed open for the 2027 cohort, closing **3 December 2026**. Salary
-  £30,500-£33,500, locations include London among others. Deadline field
-  updated from blank to 2026-12-03 — worth prioritising given the closed→open
-  resolution.
-- **Eddisons Graduate Building Surveyor 2027 (e-20260928-01) — start date
-  confirmed.** The ambiguity flagged last week is resolved: a Bright
-  Network listing for this exact role confirms a **September 2027 start**,
-  qualifying as a surveyor in November 2029 — firmly in the target cohort,
-  not an earlier-start listing. Strong Track 1 fit now confirmed; deadline
-  still unconfirmed (shown as "rolling" on one source).
-- **Turner & Townsend (seed-1).** Reconfirmed — 2027 cohort window (17
-  Sept–13 Nov 2026) unchanged, now also corroborated by live Gradcracker
-  Building Surveying listings.
-- **CBRE (seed-3).** No Building-Surveying-specific deadline found yet;
-  noted that CBRE's sibling 2027 schemes (Commercial Real Estate, Planning,
-  Property Management) close 25 October 2026 — if Building Surveying
-  shares that window, it's worth checking directly and soon.
-- **Civil Service Fast Stream (seed-4, deprioritised).** A Cabinet Office
-  response points to the next campaign launching mid-October 2026 — no
-  change to deprioritised status (still a policy route, not hands-on
-  building work).
-- **Royal Parks Boundary Wall Surveyor (e-20260817-04, deprioritised).**
-  Reconfirmed still closed (a mirror lists a 19 July 2026 closing date for
-  the same role); no reposting found.
+- No deadline changes on existing entries this week. Reconfirmation notes
+  added (no substantive change) to: Turner & Townsend (seed-1, window
+  unchanged), CBRE (seed-3, sibling 2027 schemes confirmed closing 25 Oct
+  2026, no Building-Surveying-specific deadline found), Civil Service Fast
+  Stream (seed-4, still deprioritised, official 2027-cycle dates still not
+  published), Frankham (seed-5, still live, applied), and Pick Everard
+  Heritage Building Surveyor (e-20261005-02, cross-referenced against the
+  new e-20261012-03 entry above).
 
 ## Excluded this run
 
-- **Ridge — Graduate Building Surveyor, London (Gradcracker).** Deadline
-  23 September 2026 has already passed as of this run (5 Oct) — not
-  actionable, not added.
-- **Serco — Heritage Building Surveyor, home-based Hampshire (VIVO/MOD
-  facilities contract).** Genuinely hands-on Track 2 work (quadrennial
-  inspections of Grade II listed buildings across the South East/South
-  West) but excluded: not London-based (Track 2's location criterion), and
-  a 9-month fixed-term contract strongly implies a near-term start
-  incompatible with an Aug/Sept 2027 joiner.
-- **Janus Conservation — Graduate/Assistant Building Surveyor, Heritage
-  Specialist (overseasjobs.com mirror).** Same employer/role already
-  tracked (e-20260831-01, deprioritised); this mirror shows a long-passed
-  15 July 2025 deadline — stale listing, no new information.
+- **Ridge — Graduate Building Surveyor, London (ref 82525).** Deadline 23
+  September 2026 has passed — not actionable, not added.
+- **Arcadis — Graduate Building Surveyor, Warrington.** Deadline 6 Nov 2026,
+  but Warrington isn't London/Kingston-commutable and this appears to be the
+  same Arcadis GROW scheme already deprioritised (e-20260810-03) for
+  targeting already-graduated/immediate-start candidates — no 2027-start
+  framing found for this listing. Not added.
+- **Zodiac Recruitment — Graduate Heritage Building Surveyor, Truro,
+  Cornwall.** Strong subject-matter title but non-London and not
+  commutable — Track 2's London criterion excludes it.
+- **Islington (council contract) — temp-to-perm Building Surveyor,
+  conservation-area Victorian/Edwardian stock, £29/hour.** Temporary
+  contract, not a graduate/entry scheme or a role compatible with an
+  Aug/Sept 2027 start — not added.
+- **Diocese of London / Diocese of Southwark — Building Surveyor roles
+  (£53k-£65k).** Salary band and "Chartered"/experienced framing implies an
+  already-completed qualification — hard exclude.
 - **CBRE 2027 Graduate Scheme — Planning / Commercial Real Estate /
-  Property Management / Dublin.** Not a building surveying pathway —
-  out of scope for Track 1.
+  Property Management (closing 25 Oct 2026).** Not a building surveying
+  pathway — out of scope for Track 1 (same exclusion as prior weeks).
+- Several recruitment-agency "Graduate Building Surveyor" reposts surfaced
+  via generic RICS-Recruit-style searches this run (Carrington West,
+  PeopleGroup, BNP Paribas Real Estate Newcastle/Leeds, Strutt & Parker
+  Cotswolds) — not added individually; same pattern as the Brandon
+  James/Carriera/HD Surveyors-style agency listings already tracked or
+  excluded in prior weeks for assumed-completed-degree and/or
+  non-commutable-location reasons.
 - No new postings from CharityJob/CultureJobs/Arts-Council-adjacent boards
   cleared the building/structure-focus bar this run — searches surfaced
-  only a local-authority conservation-area building surveyor temp role and
-  generic planning-department conservation officer contracts, both
-  short-term/experienced-hire in character rather than graduate-appropriate
-  Track 2 fits, so none added.
+  mostly expired or senior/experienced-hire heritage building surveyor roles
+  (Royal Parks, Faithful+Gould, Premises Recruitment — all previously
+  tracked or already closed).
 
 ## Source notes / parsing issues
 
 - **Network egress policy**: direct `WebFetch` was blocked again this run
-  for every source attempted directly (civil-service-careers.gov.uk,
-  careers.atkinsrealis.com, careers.pickeverard.co.uk, charityjob.co.uk,
-  ricsrecruit.com, eddisons.com, gradcracker.com) — all detail in this
-  summary and `tracker.json` continues to be sourced from `WebSearch`
-  result summaries only; treat unconfirmed deadlines/start dates/employers
-  as indicative, not verified.
-- Gradcracker and CultureJobs again only yielded aggregate counts/category
-  pages plus a handful of individually enumerable listings via search —
-  same limitation as prior weeks.
-- No page-structure changes noticed on any source this run.
+  for every source attempted directly (targetjobs.co.uk,
+  careers.pickeverard.co.uk, www.cbre.co.uk, gradcracker.com,
+  civil-service-careers.gov.uk) — all detail in this summary and
+  `tracker.json` continues to be sourced from `WebSearch` result summaries
+  only; treat unconfirmed deadlines/start dates/employers as indicative, not
+  verified. This is a persistent, multi-week limitation, not new this run.
+- Search-summary snippets were truncated or internally inconsistent for
+  several listings this run (Carter Jonas deadline, Ridge ref 85110 content,
+  Pick Everard ref 181484 detail) — flagged individually above rather than
+  treated as confirmed.
+- No page-structure changes noticed on any source this run beyond the usual
+  truncation/inconsistency already logged.
 
 ## Dashboard
 
 Regenerated the static, read-only dashboard from this run's `tracker.json`
-(41 entries, +2 this week) and republished to the same URL via
+(45 entries, +4 this week) and republished to the same URL via
 `tracker.json`'s `dashboard_url` field.
 
 **Dashboard:** https://claude.ai/code/artifact/fad5e6b1-cff1-4497-a113-7ea44d030f9a
