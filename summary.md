@@ -1,124 +1,102 @@
-# Weekly summary — week of 2026-10-26
+# Weekly summary — week of 2026-11-02
 
 ## New postings found
 
-Three new entries added this week (tracker now at 49 entries, up from 46):
+Two new entries added this week (tracker now at 51 entries, up from 49):
 
-- **Stonewest — Building Surveyor (Built Heritage) (e-20261026-01).** Track 2.
-  London/North West/South East. Stonewest is a specialist building
-  conservation/restoration contractor; role is hands-on historic-building-fabric
-  work (fabric defect ID, survey reporting, repair schedules) — strong Track 2
-  subject-matter fit. **FLAGGED — UNCERTAIN CURRENCY**: the only source found
-  is a PDF mirror dated August 2025 (over a year old) — could not confirm this
-  specific posting is still live. Also unconfirmed: deadline, start date,
-  salary, and whether the postgrad building-conservation qualification it asks
-  for must already be held. Worth a direct enquiry.
-- **1st Select Ltd — Graduate Building Surveyor, Kingston upon Thames
-  (e-20261026-02).** Track 1. Excellent location fit — directly commutable to
-  Kingston University. Structured APC support, project mix includes heritage
-  work alongside refurbishment/education/healthcare schemes. **FLAGGED —
-  UNCERTAIN**: salary, deadline, start date and completed-degree requirement
-  not confirmed (same caveat as other agency graduate listings already in the
-  tracker).
-- **CBRE — Heritage Building Surveyor, ref 236462 (e-20261026-03).** Track 2.
-  Distinct from CBRE's general graduate programme (seed-3) — specialist
-  building surveying across listed/historic sites with public, scientific and
-  collections uses (cyclical fabric inspections, condition reports, NEC/JCT
-  contract admin). Strong subject-matter fit, but **FLAGGED — UNCERTAIN FIT**:
-  framing ("specialist building surveying leadership", independently
-  administering contracts) reads more experienced than an entry-level hire,
-  similar to other Associate-Director/Senior heritage roles already
-  deprioritised in this tracker — though no explicit years figure is stated,
-  so not a firm hard-exclude match. Only found via non-UK-locale mirrors of
-  CBRE's careers site; UK listing, salary, deadline and start date all
-  unconfirmed.
+- **Knight Frank — Graduate Surveyor, Building Consultancy (e-20261102-01).**
+  Track 1. London. A distinct TargetJobs/Bright Network listing (ref 246823 /
+  Bright Network ref `amqu`) from the already-deprioritised Knight Frank
+  "Graduate Building Surveying Programme" (e-20261012-01, see below) — a
+  separate Building Consultancy team posting, not a resurfacing of the same
+  role. **FLAGGED — UNCERTAIN**: Bright Network's own URL names this a
+  "2026" listing, which raises a start-date question against the Aug/Sept
+  2027 rule — unclear whether that's just recruitment-cycle naming (apply in
+  2026, start Sept 2027, like Knight Frank's other scheme) or an earlier 2026
+  start. Deadline, salary and degree requirements also unconfirmed. Worth a
+  direct enquiry.
+- **Babcock International Group — Building Surveying Graduate Programme
+  (e-20261102-02).** Track 1. HM Naval Base Clyde, Helensburgh, Scotland.
+  Graduates inspect/assess buildings supporting defence-estate infrastructure
+  maintenance; professional-development route is CIOB/MCIOB rather than
+  RICS. Bright Network explicitly states this is **for September 2027** —
+  fits the Aug/Sept 2027 start rule, and the non-London location is exempt
+  from the commutability exclude under the 2027-cohort carve-out. Minimum
+  salary £35,000 per a third-party mirror. **FLAGGED — UNCERTAIN**: the
+  10 Nov 2026 deadline comes from a single third-party aggregator only, not
+  corroborated elsewhere this run — treat as indicative, not confirmed.
 
 ## Deadline / status changes on existing entries
 
 - **Knight Frank — Graduate Building Surveying Programme (e-20261012-01).**
-  **URGENT** — deadline reconfirmed unchanged at 11:59pm **30 October 2026**,
-  now only **4 days away**. Start Sept 2027, £30,000 + £1,500 sign-on bonus
-  reconfirmed via two independent sources. Strong Track 1 fit — apply soon if
-  of interest.
+  **Status changed to `deprioritised`.** The 30 Oct 2026 deadline has now
+  passed with no extension found across multiple sources checked this run.
+  Strong fit otherwise — re-check if a later-deadline variant reopens.
 - **Ridge and Partners — Graduate Building Surveyor ref 85110
-  (e-20261012-04).** Deadline (31 Oct 2026) reconfirmed, now **5 days away**.
-  Start-date compatibility with Aug/Sept 2027 still unconfirmed — flag
-  unchanged, but urgent if of interest regardless.
+  (e-20261012-04).** **Status changed to `deprioritised`.** The 31 Oct 2026
+  deadline has now passed with no evidence of an extension; the listing
+  itself was never independently confirmable (gradcracker.com direct fetch
+  blocked throughout its tracked lifetime), so start-date compatibility was
+  never resolved either way.
 - **Arcadis — Graduate Building Surveyor, Warrington ref 85588
-  (e-20261019-01).** Deadline **confirmed for the first time**: 6 November
-  2026 (10 days away), via two independently-agreeing sources (Bright Network
-  and TargetJobs). Deadline field updated from blank/unconfirmed to
-  2026-11-06. Eligibility wording (graduating 2027 or recently graduated
-  2025/2026) reconfirmed as a fit.
-- **Carter Jonas — 2027 Graduate Building Surveyor (e-20261012-02).**
-  **Status changed to `deprioritised`.** New evidence this run — a Bright
-  Network listing explicitly titled for *this* Building Surveyor role (not the
-  sibling Development Surveyor role, as last week's note assumed) shows a
-  deadline beginning "12th Oc[tober 2026]", corroborating that the already-seen
-  12 Oct 2026 date does apply here. That's now 14 days passed with no sign of
-  an extension. Some residual uncertainty remains (Carter Jonas's own site
-  still unreachable), so re-check if a later-deadline variant reopens.
-- **CBRE — UK Graduate Programme (seed-3).** Sibling 2027 schemes' 25 Oct 2026
-  closing date has now passed; still no Building-Surveying-pathway-specific
-  deadline found either way, so it's unclear whether this entry's window has
-  also closed. Left as `not_started` pending confirmation.
-- Reconfirmation notes only (no substantive change) added to: Turner &
-  Townsend (seed-1, window unchanged), AtkinsRéalis (seed-2, same stale 13 Feb
-  2026 TargetJobs mirror resurfaced, tracked 3 Dec 2026 deadline unchanged),
-  Civil Service Fast Stream (seed-4, still no 2027 dates, still
-  deprioritised), Frankham (seed-5, still live, no change), JLL
-  (e-20260914-01, deadline 17 Nov 2026 unchanged), Eddisons (e-20260928-01,
-  still no deadline found), Pick Everard x2 (e-20261005-02, e-20261012-03, no
-  new info), and Royal Parks Boundary Wall Surveyor (e-20260817-04, stale
-  listing resurfaced in search cache — treated as caching, not a reopening,
-  still deprioritised).
+  (e-20261019-01).** Deadline reconfirmed unchanged at **6 November 2026**
+  via Bright Network (ref ak00) — now only **4 days away**. This is now the
+  most urgent *open* (not-yet-closed) item in the tracker.
+- **AtkinsRéalis — Building Surveying Graduate Scheme (seed-2).** Tracked
+  3 Dec 2026 deadline corroborated again via an independent third-party
+  guide, which also warns the role may close earlier since applications are
+  reviewed on a rolling basis. No change.
+- **Turner & Townsend — Graduate Development Programme (seed-1).** Still
+  17 Sept–13 Nov 2026 window, corroborated again via the same set of live
+  Gradcracker Building Surveying reqs. No change — deadline now under 2
+  weeks away.
+- **Civil Service Fast Stream — 2027 Intake (seed-4).** The application
+  window is now corroborated more specifically than in prior runs — midday
+  8 Oct 2026 to midday 5 Nov 2026 — consistent with the tracked 2026-11-05
+  deadline (3 days away). Still `deprioritised` — remains a policy route, not
+  hands-on building work, per the 2026-08-08 Track 2 narrowing.
+- No new information surfaced this run for CBRE (seed-3, still no
+  Building-Surveying-pathway-specific deadline), Frankham (seed-5, still
+  listed), JLL (e-20260914-01, deadline 17 Nov 2026 unchanged), Eddisons
+  (e-20260928-01, still no deadline found), Pick Everard x2
+  (e-20261005-02, e-20261012-03), or the various deprioritised Royal
+  Parks/Hackney/HCUK entries — not re-touched this run to avoid redundant
+  reconfirmation churn; see prior weeks' notes for their last-known state.
 
 ## Excluded this run
 
-- **Construction Index — Heritage Building Surveyor (ref 108299), London
-  architecture practice.** £45k-£48k. Not added — listing dated March 2024,
-  over 2.5 years stale with no evidence it's still live.
-- **Torbay Council — Senior Heritage Building Surveyor.** Not added — senior
-  title/grant-management framing, and not London.
-- **Hays — Heritage Surveyor, Hampshire.** Not added — 9-month fixed-term
-  contract, not London, up to £55k salary suggests a more experienced hire.
-- **Historic England — Senior Building Conservation Adviser x2.** Not added —
-  "Senior" title, hard-exclude pattern (likely 5+ years).
-- **Premises Recruitment — heritage building surveyor, London.** Not added —
-  listing confirmed inactive/closed.
-- Various generic "Graduate Building Surveyor" agency reposts (Carrington
-  West, BTG Eddisons Peterborough, Construction Professionals Recruitment) —
-  not added individually, same reasoning as previously tracked/excluded
-  agency listings (assumed-completed-degree and/or non-London/non-2027-start).
-- No CharityJob- or CultureJobs/Arts-Council-adjacent listing cleared the
-  Track 2 building/structure-focus bar this run beyond what's already tracked;
-  results were dominated by already-tracked roles or senior/short-contract
-  casework roles.
+- No CharityJob, RICS Recruit, or CultureJobs/Arts-Council-adjacent listing
+  found this run cleared the Track 2 building/structure-focus bar beyond
+  what's already tracked. Searches mostly resurfaced already-tracked or
+  already-excluded roles (Pick Everard's senior-level heritage listings,
+  stale Royal Parks/HCUK postings, pre-2026 CharityJob/ConstructionIndex
+  items).
+- A Pick Everard "Senior Heritage Building Surveyor" listing (careers.
+  pickeverard.co.uk, ref 1345) surfaced this run — not added, senior-title
+  hard-exclude pattern, consistent with other seniority exclusions already
+  in this tracker.
+- A Knight Frank "Graduate Advisory & Consulting Pathway - London" listing
+  (deadline 13 Nov 2026) surfaced repeatedly this run — not added, it's a
+  general advisory/consulting pathway, not building surveying.
 
 ## Source notes / parsing issues
 
-- **Network egress policy**: direct `WebFetch` was blocked again this run for
-  every source attempted directly (targetjobs.co.uk, carterjonas.co.uk,
-  knightfrank.co.uk, gradcracker.com, careers.atkinsrealis.com, cbre.co.uk,
-  careers.cbre.com, civil-service-careers.gov.uk, studentjob.co.uk,
-  stonefed.org.uk, stonewest.co.uk) — all detail in this summary and
-  `tracker.json` continues to be sourced from `WebSearch` result summaries
-  only; treat unconfirmed deadlines/start dates/employers as indicative, not
-  verified. This is a persistent, multi-week limitation, not new this run.
-- `site:` filters for charityjob.co.uk and culturejobs.co.uk returned no
-  domain-matching results both times they were tried this run — the search
-  tool appears not to honour that operator reliably for these domains;
-  relevant postings were instead found via unfiltered heritage-surveyor
-  searches that happened to surface charityjob.co.uk mirrors indirectly.
-  Worth bearing in mind for future runs: a true site-restricted search of
-  these boards may not be happening even when requested.
+- **Network egress policy**: direct `WebFetch` was blocked again this run
+  for every source attempted directly (targetjobs.co.uk, gradcracker.com) —
+  all detail in this summary and `tracker.json` continues to be sourced from
+  `WebSearch` result summaries only; treat unconfirmed deadlines/start
+  dates/employers as indicative, not verified. This is a persistent,
+  multi-week limitation, not new this run.
+- CharityJob and CultureJobs results continue to be thin via general web
+  search (no domain-matching results for heritage/conservation building
+  surveying terms this run) — same limitation noted in prior weeks.
 - No page-structure changes noticed on any source this run beyond the usual
   truncation/inconsistency already logged in prior weeks.
 
 ## Dashboard
 
 Regenerated the static, read-only dashboard from this run's `tracker.json`
-(49 entries, +3 this week) and republished to the same URL via
+(51 entries, +2 this week) and republished to the same URL via
 `tracker.json`'s `dashboard_url` field.
 
 **Dashboard:** https://claude.ai/code/artifact/fad5e6b1-cff1-4497-a113-7ea44d030f9a
@@ -129,12 +107,13 @@ No changes to fit rules this run (last updated 2026-08-08, see README.md).
 
 ## Priority flags for this week
 
-1. **Knight Frank (e-20261012-01)** — deadline 30 Oct 2026, **4 days away**,
-   strong fit. Most urgent item in the tracker.
-2. **Ridge and Partners ref 85110 (e-20261012-04)** — deadline 31 Oct 2026,
-   5 days away, start-date compatibility still unconfirmed.
-3. **Arcadis Warrington ref 85588 (e-20261019-01)** — deadline newly confirmed
-   as 6 Nov 2026, 10 days away, 2027-cohort-eligible.
-4. **CBRE's Building Surveying pathway (seed-3)** — sibling schemes' 25 Oct
-   2026 deadline has now passed; worth a direct check on whether it applied
-   here too, since this entry's status is otherwise unresolved.
+1. **Arcadis Warrington ref 85588 (e-20261019-01)** — deadline 6 Nov 2026,
+   only **4 days away**, 2027-cohort-eligible. Most urgent open item.
+2. **Civil Service Fast Stream (seed-4)** — window closes midday 5 Nov 2026
+   (3 days away), but remains deprioritised on fit grounds (policy route).
+3. **Turner & Townsend (seed-1)** — deadline 13 Nov 2026, under 2 weeks away.
+4. **JLL (e-20260914-01)** — deadline 17 Nov 2026, excellent Sept 2027 start
+   fit, not urgent yet but worth keeping in view.
+5. Two closed this run with no extension found: **Knight Frank**
+   (e-20261012-01) and **Ridge and Partners ref 85110** (e-20261012-04) —
+   both now deprioritised.
